@@ -26,78 +26,104 @@ const previewRender = (jsx) => {
   console.log(html);
 };
 
-const SampleData = [
-  {
-    id: 1,
-    parent: 0,
-    droppable: true,
-    direction: "row",
+// const SampleData = ;
 
-    text: "Folder 1"
-  },
-  {
-    id: 2,
-    parent: 1,
-    droppable: false,
-    text: "File 1-1",
-    data: {
-      fileType: "image"
+function App2() {
+  const [treeData, setTreeData] = useState([
+    {
+      id: 1,
+      parent: 0,
+      droppable: true,
+      text: "Row 1",
+      data: {
+        direction: "row",
+        fileType: "row"
+      }
+    },
+    {
+      id: 2,
+      parent: 1,
+      droppable: false,
+      text: "Image 1-1",
+      data: {
+        fileType: "image"
+      }
+    },
+    {
+      id: 3,
+      parent: 1,
+      droppable: false,
+      text: "Text 1-2",
+      data: {
+        fileType: "text"
+      }
+    },
+    {
+      id: 4,
+      parent: 0,
+      droppable: true,
+      text: "Column 2",
+      data: {
+        fileType: "column",
+        direction: "column"
+      }
+    },
+    {
+      id: 5,
+      parent: 4,
+      droppable: true,
+      text: "Row 2-1",
+      data: {
+        fileType: "link",
+        link: "https://studio.grapesjs.com/"
+      }
+    },
+    {
+      id: 6,
+      parent: 5,
+      droppable: false,
+      text: "Text 2-1-1",
+      data: {
+        fileType: "text"
+      }
+    },
+    {
+      id: 7,
+      parent: 5,
+      droppable: false,
+      text: "Text 2-1-2",
+      data: {
+        fileType: "text"
+      }
+    },
+    {
+      id: 8,
+      parent: 10,
+      droppable: false,
+      text: "Image 1-1",
+      data: {
+        fileType: "image"
+      }
+    },
+    {
+      id: 9,
+      parent: 10,
+      droppable: false,
+      text: "Text 1-2",
+      data: {
+        fileType: "text"
+      }
+    },
+    {
+      id: 10,
+      parent: 1,
+      droppable: true,
+      text: "Box 1",
+      data: {
+        fileType: "box"
+      }
     }
-  },
-  {
-    id: 3,
-    parent: 1,
-    droppable: false,
-    text: "File 1-2",
-    data: {
-      fileType: "text"
-    }
-  },
-  {
-    id: 4,
-    parent: 0,
-    droppable: true,
-    direction: "row",
-    text: "Folder 2"
-  },
-  {
-    id: 5,
-    parent: 4,
-    droppable: true,
-    direction: "column",
-    text: "Folder 2-1"
-  },
-  {
-    id: 6,
-    parent: 5,
-    droppable: false,
-    text: "File 2-1-1",
-    data: {
-      fileType: "text"
-    }
-  },
-  {
-    id: 8,
-    parent: 5,
-    droppable: false,
-    text: "File 2-1-2",
-    data: {
-      fileType: "text"
-    }
-  },
-  {
-    id: 7,
-    parent: 0,
-    droppable: false,
-    text: "File 3",
-    data: {
-      fileType: "text"
-    }
-  }
-];
-
-function App() {
-  const [treeData, setTreeData] = useState(SampleData);
+  ]);
   const handleDrop = (newTree) => setTreeData(newTree);
   const [open, setOpen] = useState(false);
   const [settingsNode, setsettingsNode] = useState(null);
@@ -223,7 +249,7 @@ function App() {
   );
 }
 
-export default App;
+export default App2;
 
 const getLastId = (treeData) => {
   const reversedArray = [...treeData].sort((a, b) => {

@@ -5,17 +5,28 @@ import ListAltIcon from "@mui/icons-material/ListAlt";
 import DescriptionIcon from "@mui/icons-material/Description";
 import CheckBoxOutlineBlank from "@mui/icons-material/CheckBoxOutlineBlank";
 import TitleIcon from "@mui/icons-material/Title";
+import TableRowsIcon from "@mui/icons-material/TableRows";
+import ViewColumnIcon from "@mui/icons-material/ViewColumn";
+import InsertLinkIcon from "@mui/icons-material/InsertLink";
 
 export const TypeIcon = (props) => {
-  if (props.droppable) {
-    return <CheckBoxOutlineBlank />;
-  }
+  // if (props.droppable) {
+  //   return <CheckBoxOutlineBlank />;
+  // }
 
   switch (props.fileType) {
     case "image":
       return <ImageIcon />;
     case "text":
       return <TitleIcon />;
+    case "row":
+      return <ViewColumnIcon />;
+    case "column":
+      return <TableRowsIcon />;
+    case "box":
+      return <CheckBoxOutlineBlank />;
+    case "link":
+      return <InsertLinkIcon />;
     default:
       return null;
   }

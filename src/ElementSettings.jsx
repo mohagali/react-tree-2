@@ -53,8 +53,7 @@ export const ElementSettings = (props) => {
       targetNode.data.text = t;
     }
 
-    if (!targetNode[k]) return;
-    targetNode[k] = v;
+    if (targetNode[k]) targetNode[k] = v;
     // if (targetNode.direction === "row") targetNode.direction = "column";
     // else targetNode.direction = "row";
     setTreeData([...treeData]);
@@ -90,8 +89,8 @@ export const ElementSettings = (props) => {
   const handleEditFolder = (id, k, v) => {
     const targetNodeIndex = treeData.findIndex((n) => n.id === id);
     const targetNode = treeData[targetNodeIndex];
-    if (!targetNode[k]) return;
-    targetNode[k] = v;
+    if (!targetNode.data[k]) return;
+    targetNode.data[k] = v;
     // if (targetNode.direction === "row") targetNode.direction = "column";
     // else targetNode.direction = "row";
     setTreeData([...treeData]);
@@ -105,9 +104,7 @@ export const ElementSettings = (props) => {
       data: {
         direction: "row",
         content: "start"
-      },
-      direction: "row",
-      content: "start"
+      }
     };
 
     const lastId = getLastId(treeData) + 1;
@@ -226,14 +223,14 @@ export const ElementSettings = (props) => {
             </div> */}
                 <FormLabel>Direction:</FormLabel>
                 <Radio
-                  checked={node.direction === "row"}
+                  checked={node?.data.direction === "row"}
                   onChange={() => handleEditFolder(node.id, "direction", "row")}
                   value="row"
                   name="radio-layout-direction"
                 />
                 Row
                 <Radio
-                  checked={node.direction === "column"}
+                  checked={node?.data.direction === "column"}
                   onChange={() =>
                     handleEditFolder(node.id, "direction", "column")
                   }
@@ -245,14 +242,14 @@ export const ElementSettings = (props) => {
               <Stack direction={"row"} alignItems={"center"} flexWrap={"wrap"}>
                 <FormLabel>Content:</FormLabel>
                 <Radio
-                  checked={node.content === "start"}
+                  checked={node?.data.content === "start"}
                   onChange={() => handleEditFolder(node.id, "content", "start")}
                   value="start"
                   name="radio-layout-content"
                 />
                 Start
                 <Radio
-                  checked={node.content === "center"}
+                  checked={node?.data.content === "center"}
                   onChange={() =>
                     handleEditFolder(node.id, "content", "center")
                   }
@@ -261,14 +258,14 @@ export const ElementSettings = (props) => {
                 />
                 Center
                 <Radio
-                  checked={node.content === "end"}
+                  checked={node?.data.content === "end"}
                   onChange={() => handleEditFolder(node.id, "content", "end")}
                   value="end"
                   name="radio-layout-content"
                 />
                 End
                 <Radio
-                  checked={node.content === "space-between"}
+                  checked={node?.data.content === "space-between"}
                   onChange={() =>
                     handleEditFolder(node.id, "content", "space-between")
                   }
@@ -277,7 +274,7 @@ export const ElementSettings = (props) => {
                 />
                 Between
                 <Radio
-                  checked={node.content === "space-around"}
+                  checked={node?.data.content === "space-around"}
                   onChange={() =>
                     handleEditFolder(node.id, "content", "space-around")
                   }
@@ -286,7 +283,7 @@ export const ElementSettings = (props) => {
                 />
                 Around
                 <Radio
-                  checked={node.content === "space-evenly"}
+                  checked={node?.data.content === "space-evenly"}
                   onChange={() =>
                     handleEditFolder(node.id, "content", "space-evenly")
                   }
@@ -331,7 +328,7 @@ export const ElementSettings = (props) => {
 
               {node?.data.fileType === "image" && (
                 <Stack direction={"column"}>
-                  <Typography variant="subtitle1">Text</Typography>
+                  <Typography variant="subtitle1">Image source</Typography>
 
                   <input
                     ref={inputRef}

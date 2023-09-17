@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import SettingsIcon from "@mui/icons-material/Settings";
+import { ElementSettings } from "./ElementSettings2";
 
 import {
   ArrowRight,
@@ -27,15 +28,19 @@ export const CustomNode = (props) => {
     props.onToggle(props.node.id);
   };
 
+  const handleSelect = () => props.onSelect(props.node);
+
   const dragOverProps = useDragOver(id, props.isOpen, props.onToggle);
 
   return (
+    <>
     <div
       className={`tree-node ${styles.root}`}
       style={{ paddingInlineStart: indent }}
       {...dragOverProps}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
+      onClick={handleSelect}
     >
       <div
         className={`${styles.expandIconWrapper} ${
@@ -52,9 +57,9 @@ export const CustomNode = (props) => {
         <TypeIcon droppable={droppable} fileType={data?.fileType} />
       </div>
       <div className={styles.labelGridItem}>
-        <Typography variant="body2">{props.node.text}</Typography>
+        <Typography className={styles.labelTextItem}  variant="body2">{props.node.text}</Typography>
       </div>
-      {hover && (
+      {/* {hover && (
         <>
           <div className={styles.actionButton}>
             <IconButton size="small" onClick={() => onSettings(props.node)}>
@@ -62,7 +67,17 @@ export const CustomNode = (props) => {
             </IconButton>
           </div>
         </>
-      )}
+      )} */}
     </div>
+    {/* {props.isSelected && <p>selected</p>} */}
+    {props.isSelected && <ElementSettings 
+                            
+                            node={props.node}
+                            getLastId={props.getLastId}
+                            setTreeData={props.setTreeData}
+                            treeData={props.treeData}
+
+      />}
+    </>
   );
 };
