@@ -9,12 +9,12 @@ import {
     MultiBackend,
     getBackendOptions
 } from "@minoru/react-dnd-treeview";
-import { CustomNode } from "../CustomNode";
-import { CustomDragPreview } from "../CustomDragPreview";
-import { AddDialog } from "../AddDialog";
+import { CustomNode } from "./tree/Node/CustomNode";
+import { CustomDragPreview } from "./CustomDragPreview";
+import { AddDialog } from "../NewElement/AddDialog";
 import styles from "./SideBar.module.css";
-import { Placeholder } from "../Placeholder";
-import { ElementSettings } from "../ElementSettings2";
+import { Placeholder } from "./tree/PlaceHolder/Placeholder";
+//import { ElementSettings } from "./ElementSettings2";
 
 function SideBar({ treeData, setTreeData }) {
 

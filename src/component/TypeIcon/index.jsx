@@ -8,6 +8,7 @@ import TitleIcon from "@mui/icons-material/Title";
 import TableRowsIcon from "@mui/icons-material/TableRows";
 import ViewColumnIcon from "@mui/icons-material/ViewColumn";
 import InsertLinkIcon from "@mui/icons-material/InsertLink";
+import WebIcon from '@mui/icons-material/Web';
 
 export const TypeIcon = (props) => {
   // if (props.droppable) {
@@ -27,6 +28,8 @@ export const TypeIcon = (props) => {
       return <CheckBoxOutlineBlank />;
     case "link":
       return <InsertLinkIcon />;
+    case "page":
+      return <WebIcon />;
     default:
       return null;
   }

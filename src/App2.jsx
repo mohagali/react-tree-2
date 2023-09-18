@@ -15,9 +15,9 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { Resizable } from "re-resizable";
 import { ThemeProvider } from "@mui/material";
-import SideBar from './component/SideBar';
-import { Preview } from "./Preview";
-import { theme } from "./theme";
+import SideBar from './component/SideBar/index';
+import { Preview } from "./component/Preview/index";
+import { theme } from "./utils/theme";
 const drawerWidth = 240;
 
 

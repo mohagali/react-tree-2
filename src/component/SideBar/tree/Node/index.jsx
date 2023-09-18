@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import SettingsIcon from "@mui/icons-material/Settings";
-import { ElementSettings } from "./ElementSettings2";
+import { ElementSettings } from "../../propertyNode";
 
 import {
   ArrowRight,
@@ -13,7 +13,7 @@ import {
   Edit
 } from "@mui/icons-material";
 import { useDragOver } from "@minoru/react-dnd-treeview";
-import { TypeIcon } from "./TypeIcon";
+import { TypeIcon } from "../../../TypeIcon";
 import styles from "./CustomNode.module.css";
 
 export const CustomNode = (props) => {
