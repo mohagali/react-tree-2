@@ -14,7 +14,7 @@ import {
   NoteAdd,
   CreateNewFolder,
   Edit,
-  
+
 } from "@mui/icons-material";
 
 import {
@@ -30,322 +30,379 @@ import {
   Box
 } from "@mui/material";
 
-import styles from "./CustomNode.module.css";
+import styles from "./styles.module.css";
+import { useNodes, useNodesDispatch } from '../../../context/NodesContext';
 
-export const ElementSettings = (props) => {
-  const { treeData, setTreeData,  getLastId, node } = props;
+const NodeProperty = () => {
+
+  const dispatch = useNodesDispatch();
+  const { selectedNodeId,nodes } = useNodes()
+
+  const selectedNode=nodes.find(e=>e.id===selectedNodeId);
+  console.log("find node",selectedNode)
   const inputRef = React.useRef(null); // creates reference (to the invisible input)
-  const [file, setFile] = React.useState(null);
+  // const [file, setFile] = React.useState(null);
+
+  // const myRef = React.useRef(null);
+
+  // React.useEffect(() => {
+  //   if (myRef.current) {
+  //     // Access the style object of the element
+  //     const elementStyle = myRef.current.style;
+
+  //     // Access and edit individual style properties
+  //     elementStyle.backgroundColor = 'red';
+  //     elementStyle.fontSize = '24px';
+
+  //     // List all style attributes
+  //     for (let i = 0; i < elementStyle.length; i++) {
+  //       const styleAttribute = elementStyle[i];
+  //       const styleValue = elementStyle[styleAttribute];
+  //       console.log(`${styleAttribute}: ${styleValue}`);
+  //     }
+  //   }
+  // }, [])
 
 
-  const handleEditFile = (id, { k, v, t }) => {
-    const targetNodeIndex = treeData.findIndex((n) => n.id === id);
-    const targetNode = treeData[targetNodeIndex];
+  const handleEditFile = ({ k, v }) => {
 
-    if (t) {
-      targetNode.data.text = t;
-    }
+    dispatch({
+      type: 'changed',
+      node: {
+        ...selectedNode,
+        data: {
+          ...selectedNode.data,
+          [k]: v
+        }
+      }
+    });
 
-    if (targetNode[k]) targetNode[k] = v;
+
+    // if (t) {
+    //   selectedNode.data.text = t;
+    // }
+
+    // if (selectedNode[k]) targetNode[k] = v;
     // if (targetNode.direction === "row") targetNode.direction = "column";
     // else targetNode.direction = "row";
-    setTreeData([...treeData]);
+    //setTreeData([...treeData]);
   };
 
   const handleFileChange = (e) => {
-    const files = e.target.files;
-    if (files.length > 0) {
-      const file = files[0];
-      setFile(file);
-      const targetNodeIndex = treeData.findIndex((n) => n.id === node.id);
-      const targetNode = treeData[targetNodeIndex];
-      if (file) {
-        targetNode.data.image = URL.createObjectURL(file);
-      }
+    // const files = e.target.files;
+    // if (files.length > 0) {
+    //   const file = files[0];
+    //   setFile(file);
+    //   const targetNodeIndex = treeData.findIndex((n) => n.id === node.id);
+    //   const targetNode = treeData[targetNodeIndex];
+    //   if (file) {
+    //     targetNode.data.image = URL.createObjectURL(file);
+    //   }
 
-      setTreeData([...treeData]);
-    } else {
-      setFile(null);
-    }
+    //   setTreeData([...treeData]);
+    // } else {
+    //   setFile(null);
+    // }
   };
 
-  const handleDelete = (id) => {
-    const deleteIds = [
-      id,
-      ...getDescendants(treeData, id).map((node) => node.id)
-    ];
-    const newTree = treeData.filter((node) => !deleteIds.includes(node.id));
-
-    setTreeData(newTree);
+  const handleDelete = () => {
+    dispatch({
+      type: 'deleted',
+      id: selectedNode.id
+    });
   };
 
   const handleEditFolder = (id, k, v) => {
-    const targetNodeIndex = treeData.findIndex((n) => n.id === id);
-    const targetNode = treeData[targetNodeIndex];
-    if (!targetNode.data[k]) return;
-    targetNode.data[k] = v;
-    // if (targetNode.direction === "row") targetNode.direction = "column";
-    // else targetNode.direction = "row";
-    setTreeData([...treeData]);
+    // const targetNodeIndex = treeData.findIndex((n) => n.id === id);
+    // const targetNode = treeData[targetNodeIndex];
+    // if (!targetNode.data[k]) return;
+    // targetNode.data[k] = v;
+    // // if (targetNode.direction === "row") targetNode.direction = "column";
+    // // else targetNode.direction = "row";
+    // setTreeData([...treeData]);
   };
 
   const handleNewFolder = ({ text, parent }) => {
-    const newNode = {
-      text,
-      parent,
-      droppable: true,
-      data: {
-        direction: "row",
-        content: "start"
-      }
-    };
+    // const newNode = {
+    //   text,
+    //   parent,
+    //   droppable: true,
+    //   data: {
+    //     direction: "row",
+    //     content: "start"
+    //   }
+    // };
 
-    const lastId = getLastId(treeData) + 1;
+    // const lastId = getLastId(treeData) + 1;
 
-    setTreeData([
-      ...treeData,
-      {
-        ...newNode,
-        id: lastId
-      }
-    ]);
+    // setTreeData([
+    //   ...treeData,
+    //   {
+    //     ...newNode,
+    //     id: lastId
+    //   }
+    // ]);
   };
 
   const handleNewFile = ({ text, parent }) => {
-    const newNode = {
-      text,
-      parent,
-      droppable: false,
-      data: {
-        fileType: "text"
-      }
-    };
+    // const newNode = {
+    //   text,
+    //   parent,
+    //   droppable: false,
+    //   data: {
+    //     fileType: "text"
+    //   }
+    // };
 
-    const lastId = getLastId(treeData) + 1;
+    // const lastId = getLastId(treeData) + 1;
 
-    setTreeData([
-      ...treeData,
-      {
-        ...newNode,
-        id: lastId
-      }
-    ]);
+    // setTreeData([
+    //   ...treeData,
+    //   {
+    //     ...newNode,
+    //     id: lastId
+    //   }
+    // ]);
   };
 
   const handleCopy = (id) => {
-    const lastId = getLastId(treeData);
-    const targetNode = treeData.find((n) => n.id === id);
-    const descendants = getDescendants(treeData, id);
-    const partialTree = descendants.map((node) => ({
-      ...node,
-      id: node.id + lastId,
-      parent: node.parent + lastId
-    }));
+    // const lastId = getLastId(treeData);
+    // const targetNode = treeData.find((n) => n.id === id);
+    // const descendants = getDescendants(treeData, id);
+    // const partialTree = descendants.map((node) => ({
+    //   ...node,
+    //   id: node.id + lastId,
+    //   parent: node.parent + lastId
+    // }));
 
-    setTreeData([
-      ...treeData,
-      {
-        ...targetNode,
-        id: targetNode.id + lastId
-      },
-      ...partialTree
-    ]);
+    // setTreeData([
+    //   ...treeData,
+    //   {
+    //     ...targetNode,
+    //     id: targetNode.id + lastId
+    //   },
+    //   ...partialTree
+    // ]);
   };
-
+  if (!selectedNode)
+    return null
   return (
     <Box sx={{
-      padding:"1rem",
-      border:"1px solid grey",
-      borderLeft:"none",
-      borderRight:"none",
+      padding: "1rem",
+      border: "1px solid grey",
+      borderLeft: "none",
+      borderRight: "none",
+      flex: 1
+
 
     }}>
 
-          {node?.droppable ? (
-            <Stack direction={"column"}>
-              <Typography variant="subtitle1">Eelement</Typography>
-              <Stack direction={"row"}>
-                <div className={styles.actionButton}>
-                  <IconButton size="small" onClick={() => handleCopy(node.id)}>
-                    <FileCopy fontSize="small" />
-                  </IconButton>
-                </div>
-                <div className={styles.actionButton}>
-                  <IconButton
-                    size="small"
-                    onClick={() =>
-                      handleNewFolder({
-                        text: "new Folder",
-                        parent: props.node.id
-                      })
-                    }
-                  >
-                    <CreateNewFolder fontSize="small" />
-                  </IconButton>
-                </div>
-                <div className={styles.actionButton}>
-                  <IconButton
-                    size="small"
-                    onClick={() =>
-                      handleNewFile({ text: "new File", parent: props.node.id })
-                    }
-                  >
-                    <NoteAdd fontSize="small" />
-                  </IconButton>
-                </div>
-                <div className={styles.actionButton}>
-                  <IconButton
-                    size="small"
-                    onClick={() => handleDelete(node.id)}
-                  >
-                    <Delete fontSize="small" />
-                  </IconButton>
-                </div>
-              </Stack>
-              <Typography variant="subtitle1">Layout</Typography>
-              <Stack direction={"row"} alignItems={"center"}>
-                {/* <div className={styles.actionButton}>
+      {selectedNode?.droppable ? (
+        <Stack direction={"column"}>
+          <Typography variant="subtitle1">Eelement</Typography>
+          <Stack direction={"row"}>
+            <div className={styles.actionButton}>
+              <IconButton size="small" onClick={() => handleCopy(selectedNode.id)}>
+                <FileCopy fontSize="small" />
+              </IconButton>
+            </div>
+            <div className={styles.actionButton}>
               <IconButton
                 size="small"
-                onClick={() => handleEditFolder({ id: props.node.id })}
+                onClick={() =>
+                  handleNewFolder({
+                    text: "new Folder",
+                    parent: selectedNode.id
+                  })
+                }
+              >
+                <CreateNewFolder fontSize="small" />
+              </IconButton>
+            </div>
+            <div className={styles.actionButton}>
+              <IconButton
+                size="small"
+                onClick={() =>
+                  handleNewFile({ text: "new File", parent: selectedNode.id })
+                }
+              >
+                <NoteAdd fontSize="small" />
+              </IconButton>
+            </div>
+            <div className={styles.actionButton}>
+              <IconButton
+                size="small"
+                onClick={
+                  () => handleDelete()
+                }
+              >
+                <Delete fontSize="small" />
+              </IconButton>
+            </div>
+          </Stack>
+          <Typography variant="subtitle1">Layout</Typography>
+          <Stack direction={"row"} alignItems={"center"}>
+            {/* <div className={styles.actionButton}>
+              <IconButton
+                size="small"
+                onClick={() => handleEditFolder({ id: selectedNode.id })}
               >
                 <Edit fontSize="small" />
               </IconButton>
             </div> */}
-                <FormLabel>Direction:</FormLabel>
-                <Radio
-                  checked={node?.data.direction === "row"}
-                  onChange={() => handleEditFolder(node.id, "direction", "row")}
-                  value="row"
-                  name="radio-layout-direction"
-                />
-                Row
-                <Radio
-                  checked={node?.data.direction === "column"}
-                  onChange={() =>
-                    handleEditFolder(node.id, "direction", "column")
-                  }
-                  value="column"
-                  name="radio-layout-direction"
-                />
-                Column
-              </Stack>
-              <Stack direction={"row"} alignItems={"center"} flexWrap={"wrap"}>
-                <FormLabel>Content:</FormLabel>
-                <Radio
-                  checked={node?.data.content === "start"}
-                  onChange={() => handleEditFolder(node.id, "content", "start")}
-                  value="start"
-                  name="radio-layout-content"
-                />
-                Start
-                <Radio
-                  checked={node?.data.content === "center"}
-                  onChange={() =>
-                    handleEditFolder(node.id, "content", "center")
-                  }
-                  value="center"
-                  name="radio-layout-content"
-                />
-                Center
-                <Radio
-                  checked={node?.data.content === "end"}
-                  onChange={() => handleEditFolder(node.id, "content", "end")}
-                  value="end"
-                  name="radio-layout-content"
-                />
-                End
-                <Radio
-                  checked={node?.data.content === "space-between"}
-                  onChange={() =>
-                    handleEditFolder(node.id, "content", "space-between")
-                  }
-                  value="between"
-                  name="radio-layout-content"
-                />
-                Between
-                <Radio
-                  checked={node?.data.content === "space-around"}
-                  onChange={() =>
-                    handleEditFolder(node.id, "content", "space-around")
-                  }
-                  value="around"
-                  name="radio-layout-content"
-                />
-                Around
-                <Radio
-                  checked={node?.data.content === "space-evenly"}
-                  onChange={() =>
-                    handleEditFolder(node.id, "content", "space-evenly")
-                  }
-                  value="evenly"
-                  name="radio-layout-content"
-                />
-                Evenly
-              </Stack>
-            </Stack>
-          ) : (
+            <FormLabel>Direction:</FormLabel>
+            <Radio
+              checked={selectedNode?.data.direction === "row"}
+              onChange={() => handleEditFolder(selectedNode.id, "direction", "row")}
+              value="row"
+              name="radio-layout-direction"
+            />
+            Row
+            <Radio
+              checked={selectedNode?.data.direction === "column"}
+              onChange={() =>
+                handleEditFolder(selectedNode.id, "direction", "column")
+              }
+              value="column"
+              name="radio-layout-direction"
+            />
+            Column
+          </Stack>
+          <Stack direction={"row"} alignItems={"center"} flexWrap={"wrap"}>
+            <FormLabel>Content:</FormLabel>
+            <Radio
+              checked={selectedNode?.data.content === "start"}
+              onChange={() => handleEditFolder(selectedNode.id, "content", "start")}
+              value="start"
+              name="radio-layout-content"
+            />
+            Start
+            <Radio
+              checked={selectedNode?.data.content === "center"}
+              onChange={() =>
+                handleEditFolder(selectedNode.id, "content", "center")
+              }
+              value="center"
+              name="radio-layout-content"
+            />
+            Center
+            <Radio
+              checked={selectedNode?.data.content === "end"}
+              onChange={() => handleEditFolder(selectedNode.id, "content", "end")}
+              value="end"
+              name="radio-layout-content"
+            />
+            End
+            <Radio
+              checked={selectedNode?.data.content === "space-between"}
+              onChange={() =>
+                handleEditFolder(selectedNode.id, "content", "space-between")
+              }
+              value="between"
+              name="radio-layout-content"
+            />
+            Between
+            <Radio
+              checked={selectedNode?.data.content === "space-around"}
+              onChange={() =>
+                handleEditFolder(selectedNode.id, "content", "space-around")
+              }
+              value="around"
+              name="radio-layout-content"
+            />
+            Around
+            <Radio
+              checked={selectedNode?.data.content === "space-evenly"}
+              onChange={() =>
+                handleEditFolder(selectedNode.id, "content", "space-evenly")
+              }
+              value="evenly"
+              name="radio-layout-content"
+            />
+            Evenly
+          </Stack>
+        </Stack>
+      ) : (
+        <Stack direction={"column"}>
+          <Typography variant="subtitle1">Eelement</Typography>
+          <Stack direction={"row"}>
+            <div className={styles.actionButton}>
+              <IconButton size="small" onClick={() => handleCopy(selectedNode.id)}>
+                <FileCopy fontSize="small" />
+              </IconButton>
+            </div>
+
+            <div className={styles.actionButton}>
+              <IconButton
+                size="small"
+                onClick={() => handleDelete(selectedNode.id)}
+              >
+                <Delete fontSize="small" />
+              </IconButton>
+            </div>
+          </Stack>
+
+          {selectedNode?.data.fileType === "text" && (
             <Stack direction={"column"}>
-              <Typography variant="subtitle1">Eelement</Typography>
-              <Stack direction={"row"}>
-                <div className={styles.actionButton}>
-                  <IconButton size="small" onClick={() => handleCopy(node.id)}>
-                    <FileCopy fontSize="small" />
-                  </IconButton>
-                </div>
+              <Typography variant="subtitle1">Text</Typography>
+              <TextField
+                fullWidth
+                value={selectedNode?.data.text || ""}
+                onChange={(e) => {
+                  handleEditFile({ k: "text", v: e.target.value });
+                }}
+              />
+            </Stack>
+          )}
 
-                <div className={styles.actionButton}>
-                  <IconButton
-                    size="small"
-                    onClick={() => handleDelete(node.id)}
-                  >
-                    <Delete fontSize="small" />
-                  </IconButton>
-                </div>
-              </Stack>
+          {selectedNode?.data.fileType === "image" && (
+            <Stack direction={"column"}>
+              <Typography variant="subtitle1">Image source</Typography>
 
-              {node?.data.fileType === "text" && (
-                <Stack direction={"column"}>
-                  <Typography variant="subtitle1">Text</Typography>
-                  <TextField
-                    fullWidth
-                    value={node.data.text}
-                    onChange={(e) => {
-                      handleEditFile(node.id, { t: e.target.value });
-                    }}
-                  />
-                </Stack>
-              )}
+              <input
+                // ref={inputRef}
+                type="file"
+                onChange={handleFileChange}
+              />
+            </Stack>
+          )}
 
-              {node?.data.fileType === "image" && (
-                <Stack direction={"column"}>
-                  <Typography variant="subtitle1">Image source</Typography>
+          {/* <StyleEditor /> */}
 
-                  <input
-                    ref={inputRef}
-                    type="file"
-                    onChange={handleFileChange}
-                  />
-                </Stack>
-              )}
+          {/* <div onClick={()=>{
+               if (myRef.current) {
+                // Get the computed style object
+                const computedStyle = window.getComputedStyle(myRef.current);
+          
+                // Access and list all default style properties
+                for (let i = 0; i < computedStyle.length; i++) {
+                  const styleProperty = computedStyle[i];
+                  const styleValue = computedStyle.getPropertyValue(styleProperty);
+                  console.log(`${styleProperty}: ${styleValue}`);
+                }
+              }
 
-              {/* <div className={styles.actionButton}>
+          }} style={{ backgroundColor: 'blue', fontSize: '16px' }}>
+            This is a div element with inline styles.
+          </div> */}
+
+          {/* <div className={styles.actionButton}>
             <IconButton
               size="small"
-              onClick={() => handleEditFolder({ id: props.node.id })}
+              onClick={() => handleEditFolder({ id: selectedNode.id })}
             >
               <Edit fontSize="small" />
             </IconButton>
           </div> */}
-            </Stack>
-          )}
+        </Stack>
+      )}
 
-          {/* <DialogContentText
+      {/* <DialogContentText
             id="scroll-dialog-description"
             ref={descriptionElementRef}
             tabIndex={-1}
           > */}
-          {/* <div className={styles.actionButton}>
+      {/* <div className={styles.actionButton}>
             <IconButton size="small" onClick={() => handleDelete(node.id)}>
               <Delete fontSize="small" />
             </IconButton>
@@ -362,7 +419,7 @@ export const ElementSettings = (props) => {
                 onClick={() =>
                   handleNewFolder({
                     text: "new Folder",
-                    parent: props.node.id
+                    parent: selectedNode.id
                   })
                 }
               >
@@ -375,7 +432,7 @@ export const ElementSettings = (props) => {
               <IconButton
                 size="small"
                 onClick={() =>
-                  handleNewFile({ text: "new File", parent: props.node.id })
+                  handleNewFile({ text: "new File", parent: selectedNode.id })
                 }
               >
                 <NoteAdd fontSize="small" />
@@ -386,21 +443,83 @@ export const ElementSettings = (props) => {
             <div className={styles.actionButton}>
               <IconButton
                 size="small"
-                onClick={() => handleEditFolder({ id: props.node.id })}
+                onClick={() => handleEditFolder({ id: selectedNode.id })}
               >
                 <Edit fontSize="small" />
               </IconButton>
             </div>
           )} */}
-          {/* </DialogContentText> */}
+      {/* </DialogContentText> */}
 
     </Box>
   );
 };
 
-// onDelete={handleDelete}
-// onCopy={handleCopy}
-// onNewFolder={handleNewFolder}
-// onNewFile={handleNewFile}
-// onEditFolder={handleEditFolder}
-// onElementSettings={handleElementSettings}
+function StyleEditor() {
+  const [selectedProperty, setSelectedProperty] = React.useState('');
+  const [propertyValue, setPropertyValue] = React.useState('');
+  const [computedStyle, setComputedStyle] = React.useState([])
+  const myRef = React.useRef(null);
+
+  React.useEffect(() => {
+
+    if (myRef.current) {
+      // Get the computed style object
+      const computedStyle = window.getComputedStyle(myRef.current);
+      setComputedStyle(computedStyle)
+
+    }
+
+  }, [])
+
+  const handlePropertyChange = (e) => {
+    setSelectedProperty(e.target.value);
+  };
+
+  const handleValueChange = (e) => {
+    setPropertyValue(e.target.value);
+  };
+
+  const applyStyle = () => {
+    if (myRef.current && selectedProperty && propertyValue) {
+      myRef.current.style[selectedProperty] = propertyValue;
+    }
+  };
+
+  return (
+    <div>
+      <div>
+        <label>Select a style property:</label>
+        <select onChange={handlePropertyChange}>
+          <option value="">Select Property</option>
+          {computedStyle && Object.keys(computedStyle).map(k => {
+            const styleProperty = computedStyle[k];
+            const styleValue = computedStyle.getPropertyValue(styleProperty);
+            return <option value={styleProperty}>{styleProperty} </option>
+          })
+
+          }
+          {/* <option value="backgroundColor">Background Color</option>
+          <option value="color">Text Color</option>
+          <option value="fontSize">Font Size</option> */}
+          {/* Add more properties as needed */}
+        </select>
+      </div>
+      <div>
+        <label>Enter a new value:</label>
+        <input
+          type="text"
+          value={propertyValue}
+          onChange={handleValueChange}
+          placeholder="Enter a value"
+        />
+      </div>
+      <button onClick={applyStyle}>Apply Style</button>
+      <div ref={myRef} style={{ padding: '20px' }}>
+        This is an element you can style.
+      </div>
+    </div>
+  );
+}
+
+export default NodeProperty;

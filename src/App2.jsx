@@ -15,113 +15,19 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { Resizable } from "re-resizable";
 import { ThemeProvider } from "@mui/material";
-import SideBar from './component/SideBar/index';
+import SideBar from './component/SideBar/';
 import { Preview } from "./component/Preview/index";
 import { theme } from "./utils/theme";
+import { NodesProvider } from './context/NodesContext';
 const drawerWidth = 240;
 
 
 const App = () => {
 
-  const [treeData, setTreeData] = useState([
-    {
-      id: 1,
-      parent: 0,
-      droppable: true,
-      text: "Row 1",
-      data: {
-        direction: "row",
-        fileType: "row"
-      }
-    },
-    {
-      id: 2,
-      parent: 1,
-      droppable: false,
-      text: "Image 1-1",
-      data: {
-        fileType: "image"
-      }
-    },
-    {
-      id: 3,
-      parent: 1,
-      droppable: false,
-      text: "Text 1-2 chemi mohamed 12345",
-      data: {
-        fileType: "text"
-      }
-    },
-    {
-      id: 4,
-      parent: 0,
-      droppable: true,
-      text: "Column 2",
-      data: {
-        fileType: "column",
-        direction: "column"
-      }
-    },
-    {
-      id: 5,
-      parent: 4,
-      droppable: true,
-      text: "Row 2-1",
-      data: {
-        fileType: "link",
-        link: "https://studio.grapesjs.com/"
-      }
-    },
-    {
-      id: 6,
-      parent: 5,
-      droppable: false,
-      text: "Text 2-1-1",
-      data: {
-        fileType: "text"
-      }
-    },
-    {
-      id: 7,
-      parent: 5,
-      droppable: false,
-      text: "Text 2-1-2",
-      data: {
-        fileType: "text"
-      }
-    },
-    {
-      id: 8,
-      parent: 10,
-      droppable: false,
-      text: "Image 1-1",
-      data: {
-        fileType: "image"
-      }
-    },
-    {
-      id: 9,
-      parent: 10,
-      droppable: false,
-      text: "Text 1-2",
-      data: {
-        fileType: "text"
-      }
-    },
-    {
-      id: 10,
-      parent: 1,
-      droppable: true,
-      text: "Box 1",
-      data: {
-        fileType: "box"
-      }
-    }
-  ]);
-
   return (
 
     <ThemeProvider theme={theme}>
+      <NodesProvider>
       <CssBaseline />
       <Box sx={{ display: 'flex' }}>
         <AppBar
@@ -160,8 +66,8 @@ const App = () => {
           </Toolbar>
           <Divider />
           <SideBar
-            treeData={treeData}
-            setTreeData={setTreeData}
+            // treeData={treeData}
+             setTreeData={()=>{}}
           />
           {/* <List>
           {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
@@ -195,10 +101,11 @@ const App = () => {
         >
           <Toolbar />
           
-          <Preview tree={treeData} />
+          <Preview />
 
         </Box>
       </Box>
+      </NodesProvider>
     </ThemeProvider>
   );
 }

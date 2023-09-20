@@ -13,13 +13,25 @@ import {
   DialogContent,
   DialogActions
 } from "@mui/material";
-import styles from "./AddDialog.module.css";
+import styles from "./styles.module.css";
 
-export const AddDialog = (props) => {
+export const CreateNewNode = (props) => {
   const [text, setText] = useState("");
   const [fileType, setFileType] = useState("text");
   const [parent, setParent] = useState(0);
   const [droppable, setDroppable] = useState(false);
+
+
+  const [open, setOpen] = useState(false);
+  const handleOpenDialog = () => {
+      setOpen(true);
+  };
+
+  const handleCloseDialog = () => {
+      setOpen(false);
+  };
+
+
 
   const handleChangeText = (e) => {
     setText(e.target.value);
