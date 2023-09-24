@@ -46,7 +46,8 @@ const TreeView=()=> {
     };
 
     return <Box sx={{
-        flex:1
+        flex:1,
+        overflow: 'scroll'
     }}><DndProvider backend={MultiBackend} options={getBackendOptions()}>
         <div className={styles.app}>
             {/* <div>

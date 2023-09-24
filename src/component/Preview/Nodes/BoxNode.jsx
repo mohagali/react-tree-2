@@ -7,7 +7,8 @@ const BoxNode = ({node,TreeNode}) => {
             padding: "4px",
             margin: "4px",
             border: "1px solid purple",
-            gap: "4px"
+            width:"100px",
+            height:"100px"
           }}
         >
           {node.children.map((child) => (

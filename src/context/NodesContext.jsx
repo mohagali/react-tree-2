@@ -1,28 +1,65 @@
-import { createContext, useContext, useReducer,useState } from 'react';
+import { createContext, useContext, useEffect, useReducer, useState } from 'react';
 import { getDescendants } from "@minoru/react-dnd-treeview";
+import { getLastId }  from '../utils/nodes'
 
 const NodesContext = createContext(null);
 
 const NodesDispatchContext = createContext(null);
 
 export function NodesProvider({ children }) {
+
+  // Function to fetch data from localStorage
+
   const [nodes, dispatch] = useReducer(
     nodesReducer,
     initialNodes
   );
+  useEffect(() => {
 
-  const [selectedNodeId,setSelectedNodeId]=useState(null)
+    // Function to fetch data from localStorage
+    const fetchDataFromLocalStorage = () => {
+      const savedData = localStorage.getItem('data');
+      console.log('init', savedData)
+      if (savedData) {
+        const savedDataJson = JSON.parse(savedData);
+        dispatch({
+          type: 'init',
+          savedDataJson
+        })
+      } else {
+        dispatch({
+          type: 'init',
+          savedDataJson: initialNodes2
+        })
+      }
+    };
+
+    fetchDataFromLocalStorage();
+
+  }, [])
+
+  useEffect(() => {
+
+    // Function to update data and save to localStorage
+    const updateData = () => {
+      if (nodes.length)
+        localStorage.setItem('data', JSON.stringify(nodes));
+    };
+    updateData()
+  }, [nodes])
+
+  const [selectedNodeId, setSelectedNodeId] = useState(null)
 
   const handleSelect = (id) => {
-    console.log('handleSelect',id)
+    // console.log('handleSelect',id)
     if (id == selectedNodeId)
-    setSelectedNodeId(null)
+      setSelectedNodeId(null)
     else
-    setSelectedNodeId(id)
-};
+      setSelectedNodeId(id)
+  };
 
   return (
-    <NodesContext.Provider value={{nodes,selectedNodeId,handleSelect}}>
+    <NodesContext.Provider value={{ nodes, selectedNodeId, handleSelect }}>
       <NodesDispatchContext.Provider value={dispatch}>
         {children}
       </NodesDispatchContext.Provider>
@@ -40,6 +77,10 @@ export function useNodesDispatch() {
 
 function nodesReducer(nodes, action) {
   switch (action.type) {
+    case 'init': {
+      return [...action.savedDataJson]
+    }
+
     case 'drop': {
       return action.newNodes
     }
@@ -51,8 +92,8 @@ function nodesReducer(nodes, action) {
       // }];
     }
     case 'changed': {
-      console.log('changed',action)
-       return nodes.map(t => {
+      console.log('changed', action)
+      return nodes.map(t => {
         if (t.id === action.node.id) {
           return action.node;
         } else {
@@ -61,27 +102,44 @@ function nodesReducer(nodes, action) {
       });
     }
     case 'deleted': {
-      // return tasks.filter(t => t.id !== action.id);
-
-      console.log("deleted", action)
       const id = action.id;
       const deleteIds = [
         id,
         ...getDescendants(nodes, id).map((node) => node.id)
       ];
-      console.log("nodes", nodes)
-      console.log("deleteIds", deleteIds)
+
       return nodes.filter((node) => !deleteIds.includes(node.id));
 
     }
+    case 'copy':{
+      const id = action.id;
+      const lastId = getLastId(nodes);
+      const targetNode = nodes.find((n) => n.id === id);
+      const descendants = getDescendants(nodes, id);
+      const partialNodes = descendants.map((node) => ({
+        ...node,
+        id: node.id + lastId,
+        parent: node.parent + lastId
+      }));
+  
+      return [
+        ...nodes,
+        {
+          ...targetNode,
+          id: targetNode.id + lastId
+        },
+        ...partialNodes
+      ];
+
+    }
+
     default: {
       // throw Error('Unknown action: ' + action.type);
     }
   }
 }
-
-const initialNodes = [
-
+const initialNodes = [];
+const initialNodes2 = [
   {
     id: 1,
     parent: 0,

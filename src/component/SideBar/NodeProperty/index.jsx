@@ -7,6 +7,7 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import { getDescendants } from "@minoru/react-dnd-treeview";
+
 import {
   ArrowRight,
   Delete,
@@ -31,16 +32,18 @@ import {
 } from "@mui/material";
 
 import styles from "./styles.module.css";
+import TextNode from "./Nodes/TextNode2";
+import ImageNode from "./Nodes/ImageNode";
 import { useNodes, useNodesDispatch } from '../../../context/NodesContext';
 
 const NodeProperty = () => {
 
   const dispatch = useNodesDispatch();
-  const { selectedNodeId,nodes } = useNodes()
+  const { selectedNodeId, nodes } = useNodes()
 
-  const selectedNode=nodes.find(e=>e.id===selectedNodeId);
-  console.log("find node",selectedNode)
-  const inputRef = React.useRef(null); // creates reference (to the invisible input)
+  const selectedNode = nodes.find(e => e.id === selectedNodeId);
+  //console.log("find node",selectedNode)
+  // const inputRef = React.useRef(null); // creates reference (to the invisible input)
   // const [file, setFile] = React.useState(null);
 
   // const myRef = React.useRef(null);
@@ -63,30 +66,15 @@ const NodeProperty = () => {
   //   }
   // }, [])
 
+  // if (t) {
+  //   selectedNode.data.text = t;
+  // }
 
-  const handleEditFile = ({ k, v }) => {
+  // if (selectedNode[k]) targetNode[k] = v;
+  // if (targetNode.direction === "row") targetNode.direction = "column";
+  // else targetNode.direction = "row";
+  //setTreeData([...treeData]);
 
-    dispatch({
-      type: 'changed',
-      node: {
-        ...selectedNode,
-        data: {
-          ...selectedNode.data,
-          [k]: v
-        }
-      }
-    });
-
-
-    // if (t) {
-    //   selectedNode.data.text = t;
-    // }
-
-    // if (selectedNode[k]) targetNode[k] = v;
-    // if (targetNode.direction === "row") targetNode.direction = "column";
-    // else targetNode.direction = "row";
-    //setTreeData([...treeData]);
-  };
 
   const handleFileChange = (e) => {
     // const files = e.target.files;
@@ -165,24 +153,13 @@ const NodeProperty = () => {
     // ]);
   };
 
-  const handleCopy = (id) => {
-    // const lastId = getLastId(treeData);
-    // const targetNode = treeData.find((n) => n.id === id);
-    // const descendants = getDescendants(treeData, id);
-    // const partialTree = descendants.map((node) => ({
-    //   ...node,
-    //   id: node.id + lastId,
-    //   parent: node.parent + lastId
-    // }));
+  const handleCopy = () => {
 
-    // setTreeData([
-    //   ...treeData,
-    //   {
-    //     ...targetNode,
-    //     id: targetNode.id + lastId
-    //   },
-    //   ...partialTree
-    // ]);
+    dispatch({
+      type: 'copy',
+      id: selectedNode.id
+    });
+
   };
   if (!selectedNode)
     return null
@@ -192,8 +169,8 @@ const NodeProperty = () => {
       border: "1px solid grey",
       borderLeft: "none",
       borderRight: "none",
-      flex: 1
-
+      flex: 1,
+      overflow: 'scroll'
 
     }}>
 
@@ -323,11 +300,12 @@ const NodeProperty = () => {
           </Stack>
         </Stack>
       ) : (
+
         <Stack direction={"column"}>
-          <Typography variant="subtitle1">Eelement</Typography>
+          <Typography variant="h6">General</Typography>
           <Stack direction={"row"}>
             <div className={styles.actionButton}>
-              <IconButton size="small" onClick={() => handleCopy(selectedNode.id)}>
+              <IconButton size="small" onClick={() => handleCopy()}>
                 <FileCopy fontSize="small" />
               </IconButton>
             </div>
@@ -335,36 +313,32 @@ const NodeProperty = () => {
             <div className={styles.actionButton}>
               <IconButton
                 size="small"
-                onClick={() => handleDelete(selectedNode.id)}
+                onClick={() => handleDelete()}
               >
                 <Delete fontSize="small" />
               </IconButton>
             </div>
           </Stack>
 
+
+
           {selectedNode?.data.fileType === "text" && (
-            <Stack direction={"column"}>
-              <Typography variant="subtitle1">Text</Typography>
-              <TextField
-                fullWidth
-                value={selectedNode?.data.text || ""}
-                onChange={(e) => {
-                  handleEditFile({ k: "text", v: e.target.value });
-                }}
-              />
-            </Stack>
+
+            <TextNode selectedNode={selectedNode} dispatch={dispatch} />
+
           )}
 
           {selectedNode?.data.fileType === "image" && (
-            <Stack direction={"column"}>
-              <Typography variant="subtitle1">Image source</Typography>
+            <ImageNode selectedNode={selectedNode} dispatch={dispatch} />
+            // <Stack direction={"column"}>
+            //   <Typography variant="subtitle1">Image source</Typography>
 
-              <input
-                // ref={inputRef}
-                type="file"
-                onChange={handleFileChange}
-              />
-            </Stack>
+            //   <input
+            //     // ref={inputRef}
+            //     type="file"
+            //     onChange={handleFileChange}
+            //   />
+            // </Stack>
           )}
 
           {/* <StyleEditor /> */}

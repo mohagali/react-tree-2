@@ -6,7 +6,9 @@ const LinkNode = ({node,TreeNode}) => {
           sx={{
             padding: "2px",
             margin: "2px",
-            border: "1px solid yellow"
+            border: "1px solid yellow",
+            all: "unset",
+            cursor:"pointer"
           }}
         >
           {node.children.map((child) => (

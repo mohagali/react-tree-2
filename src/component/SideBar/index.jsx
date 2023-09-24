@@ -7,7 +7,9 @@ import styles from "./styles.module.css";
 
 function SideBar() {
 
-    return <Box height={1}  >
+    return <Box height={1} sx={{
+        overflow:"hidden"
+    }}  >
         <Stack height={1} direction={'column'}>
             <TreeView  />
             <NodeProperty 
