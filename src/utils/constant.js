@@ -921,58 +921,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-0",
       "properties": {
-        "margin-left": "0px",
-        "margin-right": "0px"
+        marginLeft: "0px",
+        marginRight: "0px"
       }
     },
     {
       "category": "margin",
       "class": "my-0",
       "properties": {
-        "margin-top": "0px",
-        "margin-bottom": "0px"
+        marginTop: "0px",
+        marginBottom: "0px"
       }
     },
     {
       "category": "margin",
       "class": "ms-0",
       "properties": {
-        "margin-inline-start": "0px"
+        marginInlineStart: "0px"
       }
     },
     {
       "category": "margin",
       "class": "me-0",
       "properties": {
-        "margin-inline-end": "0px"
+        marginInlineEnd: "0px"
       }
     },
     {
       "category": "margin",
       "class": "mt-0",
       "properties": {
-        "margin-top": "0px"
+        marginTop: "0px"
       }
     },
     {
       "category": "margin",
       "class": "mr-0",
       "properties": {
-        "margin-right": "0px"
+        marginRight: "0px"
       }
     },
     {
       "category": "margin",
       "class": "mb-0",
       "properties": {
-        "margin-bottom": "0px"
+        marginBottom: "0px"
       }
     },
     {
       "category": "margin",
       "class": "ml-0",
       "properties": {
-        "margin-left": "0px"
+        marginLeft: "0px"
       }
     },
     {
@@ -986,58 +986,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-px",
       "properties": {
-        "margin-left": "1px",
-        "margin-right": "1px"
+        marginLeft: "1px",
+        marginRight: "1px"
       }
     },
     {
       "category": "margin",
       "class": "my-px",
       "properties": {
-        "margin-top": "1px",
-        "margin-bottom": "1px"
+        marginTop: "1px",
+        marginBottom: "1px"
       }
     },
     {
       "category": "margin",
       "class": "ms-px",
       "properties": {
-        "margin-inline-start": "1px"
+        marginInlineStart: "1px"
       }
     },
     {
       "category": "margin",
       "class": "me-px",
       "properties": {
-        "margin-inline-end": "1px"
+        marginInlineEnd: "1px"
       }
     },
     {
       "category": "margin",
       "class": "mt-px",
       "properties": {
-        "margin-top": "1px"
+        marginTop: "1px"
       }
     },
     {
       "category": "margin",
       "class": "mr-px",
       "properties": {
-        "margin-right": "1px"
+        marginRight: "1px"
       }
     },
     {
       "category": "margin",
       "class": "mb-px",
       "properties": {
-        "margin-bottom": "1px"
+        marginBottom: "1px"
       }
     },
     {
       "category": "margin",
       "class": "ml-px",
       "properties": {
-        "margin-left": "1px"
+        marginLeft: "1px"
       }
     },
     {
@@ -1051,58 +1051,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-0.5",
       "properties": {
-        "margin-left": "0.125rem",
-        "margin-right": "0.125rem"
+        marginLeft: "0.125rem",
+        marginRight: "0.125rem"
       }
     },
     {
       "category": "margin",
       "class": "my-0.5",
       "properties": {
-        "margin-top": "0.125rem",
-        "margin-bottom": "0.125rem"
+        marginTop: "0.125rem",
+        marginBottom: "0.125rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-0.5",
       "properties": {
-        "margin-inline-start": "0.125rem"
+        marginInlineStart: "0.125rem"
       }
     },
     {
       "category": "margin",
       "class": "me-0.5",
       "properties": {
-        "margin-inline-end": "0.125rem"
+        marginInlineEnd: "0.125rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-0.5",
       "properties": {
-        "margin-top": "0.125rem"
+        marginTop: "0.125rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-0.5",
       "properties": {
-        "margin-right": "0.125rem"
+        marginRight: "0.125rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-0.5",
       "properties": {
-        "margin-bottom": "0.125rem"
+        marginBottom: "0.125rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-0.5",
       "properties": {
-        "margin-left": "0.125rem"
+        marginLeft: "0.125rem"
       }
     },
     {
@@ -1116,58 +1116,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-1",
       "properties": {
-        "margin-left": "0.25rem",
-        "margin-right": "0.25rem"
+        marginLeft: "0.25rem",
+        marginRight: "0.25rem"
       }
     },
     {
       "category": "margin",
       "class": "my-1",
       "properties": {
-        "margin-top": "0.25rem",
-        "margin-bottom": "0.25rem"
+        marginTop: "0.25rem",
+        marginBottom: "0.25rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-1",
       "properties": {
-        "margin-inline-start": "0.25rem"
+        marginInlineStart: "0.25rem"
       }
     },
     {
       "category": "margin",
       "class": "me-1",
       "properties": {
-        "margin-inline-end": "0.25rem"
+        marginInlineEnd: "0.25rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-1",
       "properties": {
-        "margin-top": "0.25rem"
+        marginTop: "0.25rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-1",
       "properties": {
-        "margin-right": "0.25rem"
+        marginRight: "0.25rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-1",
       "properties": {
-        "margin-bottom": "0.25rem"
+        marginBottom: "0.25rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-1",
       "properties": {
-        "margin-left": "0.25rem"
+        marginLeft: "0.25rem"
       }
     },
     {
@@ -1181,58 +1181,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-1.5",
       "properties": {
-        "margin-left": "0.375rem",
-        "margin-right": "0.375rem"
+        marginLeft: "0.375rem",
+        marginRight: "0.375rem"
       }
     },
     {
       "category": "margin",
       "class": "my-1.5",
       "properties": {
-        "margin-top": "0.375rem",
-        "margin-bottom": "0.375rem"
+        marginTop: "0.375rem",
+        marginBottom: "0.375rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-1.5",
       "properties": {
-        "margin-inline-start": "0.375rem"
+        marginInlineStart: "0.375rem"
       }
     },
     {
       "category": "margin",
       "class": "me-1.5",
       "properties": {
-        "margin-inline-end": "0.375rem"
+        marginInlineEnd: "0.375rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-1.5",
       "properties": {
-        "margin-top": "0.375rem"
+        marginTop: "0.375rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-1.5",
       "properties": {
-        "margin-right": "0.375rem"
+        marginRight: "0.375rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-1.5",
       "properties": {
-        "margin-bottom": "0.375rem"
+        marginBottom: "0.375rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-1.5",
       "properties": {
-        "margin-left": "0.375rem"
+        marginLeft: "0.375rem"
       }
     },
     {
@@ -1246,58 +1246,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-2",
       "properties": {
-        "margin-left": "0.5rem",
-        "margin-right": "0.5rem"
+        marginLeft: "0.5rem",
+        marginRight: "0.5rem"
       }
     },
     {
       "category": "margin",
       "class": "my-2",
       "properties": {
-        "margin-top": "0.5rem",
-        "margin-bottom": "0.5rem"
+        marginTop: "0.5rem",
+        marginBottom: "0.5rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-2",
       "properties": {
-        "margin-inline-start": "0.5rem"
+        marginInlineStart: "0.5rem"
       }
     },
     {
       "category": "margin",
       "class": "me-2",
       "properties": {
-        "margin-inline-end": "0.5rem"
+        marginInlineEnd: "0.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-2",
       "properties": {
-        "margin-top": "0.5rem"
+        marginTop: "0.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-2",
       "properties": {
-        "margin-right": "0.5rem"
+        marginRight: "0.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-2",
       "properties": {
-        "margin-bottom": "0.5rem"
+        marginBottom: "0.5rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-2",
       "properties": {
-        "margin-left": "0.5rem"
+        marginLeft: "0.5rem"
       }
     },
     {
@@ -1311,58 +1311,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-2.5",
       "properties": {
-        "margin-left": "0.625rem",
-        "margin-right": "0.625rem"
+        marginLeft: "0.625rem",
+        marginRight: "0.625rem"
       }
     },
     {
       "category": "margin",
       "class": "my-2.5",
       "properties": {
-        "margin-top": "0.625rem",
-        "margin-bottom": "0.625rem"
+        marginTop: "0.625rem",
+        marginBottom: "0.625rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-2.5",
       "properties": {
-        "margin-inline-start": "0.625rem"
+        marginInlineStart: "0.625rem"
       }
     },
     {
       "category": "margin",
       "class": "me-2.5",
       "properties": {
-        "margin-inline-end": "0.625rem"
+        marginInlineEnd: "0.625rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-2.5",
       "properties": {
-        "margin-top": "0.625rem"
+        marginTop: "0.625rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-2.5",
       "properties": {
-        "margin-right": "0.625rem"
+        marginRight: "0.625rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-2.5",
       "properties": {
-        "margin-bottom": "0.625rem"
+        marginBottom: "0.625rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-2.5",
       "properties": {
-        "margin-left": "0.625rem"
+        marginLeft: "0.625rem"
       }
     },
     {
@@ -1376,58 +1376,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-3",
       "properties": {
-        "margin-left": "0.75rem",
-        "margin-right": "0.75rem"
+        marginLeft: "0.75rem",
+        marginRight: "0.75rem"
       }
     },
     {
       "category": "margin",
       "class": "my-3",
       "properties": {
-        "margin-top": "0.75rem",
-        "margin-bottom": "0.75rem"
+        marginTop: "0.75rem",
+        marginBottom: "0.75rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-3",
       "properties": {
-        "margin-inline-start": "0.75rem"
+        marginInlineStart: "0.75rem"
       }
     },
     {
       "category": "margin",
       "class": "me-3",
       "properties": {
-        "margin-inline-end": "0.75rem"
+        marginInlineEnd: "0.75rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-3",
       "properties": {
-        "margin-top": "0.75rem"
+        marginTop: "0.75rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-3",
       "properties": {
-        "margin-right": "0.75rem"
+        marginRight: "0.75rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-3",
       "properties": {
-        "margin-bottom": "0.75rem"
+        marginBottom: "0.75rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-3",
       "properties": {
-        "margin-left": "0.75rem"
+        marginLeft: "0.75rem"
       }
     },
     {
@@ -1441,58 +1441,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-3.5",
       "properties": {
-        "margin-left": "0.875rem",
-        "margin-right": "0.875rem"
+        marginLeft: "0.875rem",
+        marginRight: "0.875rem"
       }
     },
     {
       "category": "margin",
       "class": "my-3.5",
       "properties": {
-        "margin-top": "0.875rem",
-        "margin-bottom": "0.875rem"
+        marginTop: "0.875rem",
+        marginBottom: "0.875rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-3.5",
       "properties": {
-        "margin-inline-start": "0.875rem"
+        marginInlineStart: "0.875rem"
       }
     },
     {
       "category": "margin",
       "class": "me-3.5",
       "properties": {
-        "margin-inline-end": "0.875rem"
+        marginInlineEnd: "0.875rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-3.5",
       "properties": {
-        "margin-top": "0.875rem"
+        marginTop: "0.875rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-3.5",
       "properties": {
-        "margin-right": "0.875rem"
+        marginRight: "0.875rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-3.5",
       "properties": {
-        "margin-bottom": "0.875rem"
+        marginBottom: "0.875rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-3.5",
       "properties": {
-        "margin-left": "0.875rem"
+        marginLeft: "0.875rem"
       }
     },
     {
@@ -1506,58 +1506,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-4",
       "properties": {
-        "margin-left": "1rem",
-        "margin-right": "1rem"
+        marginLeft: "1rem",
+        marginRight: "1rem"
       }
     },
     {
       "category": "margin",
       "class": "my-4",
       "properties": {
-        "margin-top": "1rem",
-        "margin-bottom": "1rem"
+        marginTop: "1rem",
+        marginBottom: "1rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-4",
       "properties": {
-        "margin-inline-start": "1rem"
+        marginInlineStart: "1rem"
       }
     },
     {
       "category": "margin",
       "class": "me-4",
       "properties": {
-        "margin-inline-end": "1rem"
+        marginInlineEnd: "1rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-4",
       "properties": {
-        "margin-top": "1rem"
+        marginTop: "1rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-4",
       "properties": {
-        "margin-right": "1rem"
+        marginRight: "1rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-4",
       "properties": {
-        "margin-bottom": "1rem"
+        marginBottom: "1rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-4",
       "properties": {
-        "margin-left": "1rem"
+        marginLeft: "1rem"
       }
     },
     {
@@ -1571,58 +1571,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-5",
       "properties": {
-        "margin-left": "1.25rem",
-        "margin-right": "1.25rem"
+        marginLeft: "1.25rem",
+        marginRight: "1.25rem"
       }
     },
     {
       "category": "margin",
       "class": "my-5",
       "properties": {
-        "margin-top": "1.25rem",
-        "margin-bottom": "1.25rem"
+        marginTop: "1.25rem",
+        marginBottom: "1.25rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-5",
       "properties": {
-        "margin-inline-start": "1.25rem"
+        marginInlineStart: "1.25rem"
       }
     },
     {
       "category": "margin",
       "class": "me-5",
       "properties": {
-        "margin-inline-end": "1.25rem"
+        marginInlineEnd: "1.25rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-5",
       "properties": {
-        "margin-top": "1.25rem"
+        marginTop: "1.25rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-5",
       "properties": {
-        "margin-right": "1.25rem"
+        marginRight: "1.25rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-5",
       "properties": {
-        "margin-bottom": "1.25rem"
+        marginBottom: "1.25rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-5",
       "properties": {
-        "margin-left": "1.25rem"
+        marginLeft: "1.25rem"
       }
     },
     {
@@ -1636,58 +1636,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-6",
       "properties": {
-        "margin-left": "1.5rem",
-        "margin-right": "1.5rem"
+        marginLeft: "1.5rem",
+        marginRight: "1.5rem"
       }
     },
     {
       "category": "margin",
       "class": "my-6",
       "properties": {
-        "margin-top": "1.5rem",
-        "margin-bottom": "1.5rem"
+        marginTop: "1.5rem",
+        marginBottom: "1.5rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-6",
       "properties": {
-        "margin-inline-start": "1.5rem"
+        marginInlineStart: "1.5rem"
       }
     },
     {
       "category": "margin",
       "class": "me-6",
       "properties": {
-        "margin-inline-end": "1.5rem"
+        marginInlineEnd: "1.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-6",
       "properties": {
-        "margin-top": "1.5rem"
+        marginTop: "1.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-6",
       "properties": {
-        "margin-right": "1.5rem"
+        marginRight: "1.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-6",
       "properties": {
-        "margin-bottom": "1.5rem"
+        marginBottom: "1.5rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-6",
       "properties": {
-        "margin-left": "1.5rem"
+        marginLeft: "1.5rem"
       }
     },
     {
@@ -1701,58 +1701,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-7",
       "properties": {
-        "margin-left": "1.75rem",
-        "margin-right": "1.75rem"
+        marginLeft: "1.75rem",
+        marginRight: "1.75rem"
       }
     },
     {
       "category": "margin",
       "class": "my-7",
       "properties": {
-        "margin-top": "1.75rem",
-        "margin-bottom": "1.75rem"
+        marginTop: "1.75rem",
+        marginBottom: "1.75rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-7",
       "properties": {
-        "margin-inline-start": "1.75rem"
+        marginInlineStart: "1.75rem"
       }
     },
     {
       "category": "margin",
       "class": "me-7",
       "properties": {
-        "margin-inline-end": "1.75rem"
+        marginInlineEnd: "1.75rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-7",
       "properties": {
-        "margin-top": "1.75rem"
+        marginTop: "1.75rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-7",
       "properties": {
-        "margin-right": "1.75rem"
+        marginRight: "1.75rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-7",
       "properties": {
-        "margin-bottom": "1.75rem"
+        marginBottom: "1.75rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-7",
       "properties": {
-        "margin-left": "1.75rem"
+        marginLeft: "1.75rem"
       }
     },
     {
@@ -1766,58 +1766,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-8",
       "properties": {
-        "margin-left": "2rem",
-        "margin-right": "2rem"
+        marginLeft: "2rem",
+        marginRight: "2rem"
       }
     },
     {
       "category": "margin",
       "class": "my-8",
       "properties": {
-        "margin-top": "2rem",
-        "margin-bottom": "2rem"
+        marginTop: "2rem",
+        marginBottom: "2rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-8",
       "properties": {
-        "margin-inline-start": "2rem"
+        marginInlineStart: "2rem"
       }
     },
     {
       "category": "margin",
       "class": "me-8",
       "properties": {
-        "margin-inline-end": "2rem"
+        marginInlineEnd: "2rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-8",
       "properties": {
-        "margin-top": "2rem"
+        marginTop: "2rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-8",
       "properties": {
-        "margin-right": "2rem"
+        marginRight: "2rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-8",
       "properties": {
-        "margin-bottom": "2rem"
+        marginBottom: "2rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-8",
       "properties": {
-        "margin-left": "2rem"
+        marginLeft: "2rem"
       }
     },
     {
@@ -1831,58 +1831,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-9",
       "properties": {
-        "margin-left": "2.25rem",
-        "margin-right": "2.25rem"
+        marginLeft: "2.25rem",
+        marginRight: "2.25rem"
       }
     },
     {
       "category": "margin",
       "class": "my-9",
       "properties": {
-        "margin-top": "2.25rem",
-        "margin-bottom": "2.25rem"
+        marginTop: "2.25rem",
+        marginBottom: "2.25rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-9",
       "properties": {
-        "margin-inline-start": "2.25rem"
+        marginInlineStart: "2.25rem"
       }
     },
     {
       "category": "margin",
       "class": "me-9",
       "properties": {
-        "margin-inline-end": "2.25rem"
+        marginInlineEnd: "2.25rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-9",
       "properties": {
-        "margin-top": "2.25rem"
+        marginTop: "2.25rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-9",
       "properties": {
-        "margin-right": "2.25rem"
+        marginRight: "2.25rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-9",
       "properties": {
-        "margin-bottom": "2.25rem"
+        marginBottom: "2.25rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-9",
       "properties": {
-        "margin-left": "2.25rem"
+        marginLeft: "2.25rem"
       }
     },
     {
@@ -1896,58 +1896,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-10",
       "properties": {
-        "margin-left": "2.5rem",
-        "margin-right": "2.5rem"
+        marginLeft: "2.5rem",
+        marginRight: "2.5rem"
       }
     },
     {
       "category": "margin",
       "class": "my-10",
       "properties": {
-        "margin-top": "2.5rem",
-        "margin-bottom": "2.5rem"
+        marginTop: "2.5rem",
+        marginBottom: "2.5rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-10",
       "properties": {
-        "margin-inline-start": "2.5rem"
+        marginInlineStart: "2.5rem"
       }
     },
     {
       "category": "margin",
       "class": "me-10",
       "properties": {
-        "margin-inline-end": "2.5rem"
+        marginInlineEnd: "2.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-10",
       "properties": {
-        "margin-top": "2.5rem"
+        marginTop: "2.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-10",
       "properties": {
-        "margin-right": "2.5rem"
+        marginRight: "2.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-10",
       "properties": {
-        "margin-bottom": "2.5rem"
+        marginBottom: "2.5rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-10",
       "properties": {
-        "margin-left": "2.5rem"
+        marginLeft: "2.5rem"
       }
     },
     {
@@ -1961,58 +1961,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-11",
       "properties": {
-        "margin-left": "2.75rem",
-        "margin-right": "2.75rem"
+        marginLeft: "2.75rem",
+        marginRight: "2.75rem"
       }
     },
     {
       "category": "margin",
       "class": "my-11",
       "properties": {
-        "margin-top": "2.75rem",
-        "margin-bottom": "2.75rem"
+        marginTop: "2.75rem",
+        marginBottom: "2.75rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-11",
       "properties": {
-        "margin-inline-start": "2.75rem"
+        marginInlineStart: "2.75rem"
       }
     },
     {
       "category": "margin",
       "class": "me-11",
       "properties": {
-        "margin-inline-end": "2.75rem"
+        marginInlineEnd: "2.75rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-11",
       "properties": {
-        "margin-top": "2.75rem"
+        marginTop: "2.75rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-11",
       "properties": {
-        "margin-right": "2.75rem"
+        marginRight: "2.75rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-11",
       "properties": {
-        "margin-bottom": "2.75rem"
+        marginBottom: "2.75rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-11",
       "properties": {
-        "margin-left": "2.75rem"
+        marginLeft: "2.75rem"
       }
     },
     {
@@ -2026,58 +2026,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-12",
       "properties": {
-        "margin-left": "3rem",
-        "margin-right": "3rem"
+        marginLeft: "3rem",
+        marginRight: "3rem"
       }
     },
     {
       "category": "margin",
       "class": "my-12",
       "properties": {
-        "margin-top": "3rem",
-        "margin-bottom": "3rem"
+        marginTop: "3rem",
+        marginBottom: "3rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-12",
       "properties": {
-        "margin-inline-start": "3rem"
+        marginInlineStart: "3rem"
       }
     },
     {
       "category": "margin",
       "class": "me-12",
       "properties": {
-        "margin-inline-end": "3rem"
+        marginInlineEnd: "3rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-12",
       "properties": {
-        "margin-top": "3rem"
+        marginTop: "3rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-12",
       "properties": {
-        "margin-right": "3rem"
+        marginRight: "3rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-12",
       "properties": {
-        "margin-bottom": "3rem"
+        marginBottom: "3rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-12",
       "properties": {
-        "margin-left": "3rem"
+        marginLeft: "3rem"
       }
     },
     {
@@ -2091,58 +2091,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-14",
       "properties": {
-        "margin-left": "3.5rem",
-        "margin-right": "3.5rem"
+        marginLeft: "3.5rem",
+        marginRight: "3.5rem"
       }
     },
     {
       "category": "margin",
       "class": "my-14",
       "properties": {
-        "margin-top": "3.5rem",
-        "margin-bottom": "3.5rem"
+        marginTop: "3.5rem",
+        marginBottom: "3.5rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-14",
       "properties": {
-        "margin-inline-start": "3.5rem"
+        marginInlineStart: "3.5rem"
       }
     },
     {
       "category": "margin",
       "class": "me-14",
       "properties": {
-        "margin-inline-end": "3.5rem"
+        marginInlineEnd: "3.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-14",
       "properties": {
-        "margin-top": "3.5rem"
+        marginTop: "3.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-14",
       "properties": {
-        "margin-right": "3.5rem"
+        marginRight: "3.5rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-14",
       "properties": {
-        "margin-bottom": "3.5rem"
+        marginBottom: "3.5rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-14",
       "properties": {
-        "margin-left": "3.5rem"
+        marginLeft: "3.5rem"
       }
     },
     {
@@ -2156,58 +2156,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-16",
       "properties": {
-        "margin-left": "4rem",
-        "margin-right": "4rem"
+        marginLeft: "4rem",
+        marginRight: "4rem"
       }
     },
     {
       "category": "margin",
       "class": "my-16",
       "properties": {
-        "margin-top": "4rem",
-        "margin-bottom": "4rem"
+        marginTop: "4rem",
+        marginBottom: "4rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-16",
       "properties": {
-        "margin-inline-start": "4rem"
+        marginInlineStart: "4rem"
       }
     },
     {
       "category": "margin",
       "class": "me-16",
       "properties": {
-        "margin-inline-end": "4rem"
+        marginInlineEnd: "4rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-16",
       "properties": {
-        "margin-top": "4rem"
+        marginTop: "4rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-16",
       "properties": {
-        "margin-right": "4rem"
+        marginRight: "4rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-16",
       "properties": {
-        "margin-bottom": "4rem"
+        marginBottom: "4rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-16",
       "properties": {
-        "margin-left": "4rem"
+        marginLeft: "4rem"
       }
     },
     {
@@ -2221,58 +2221,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-20",
       "properties": {
-        "margin-left": "5rem",
-        "margin-right": "5rem"
+        marginLeft: "5rem",
+        marginRight: "5rem"
       }
     },
     {
       "category": "margin",
       "class": "my-20",
       "properties": {
-        "margin-top": "5rem",
-        "margin-bottom": "5rem"
+        marginTop: "5rem",
+        marginBottom: "5rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-20",
       "properties": {
-        "margin-inline-start": "5rem"
+        marginInlineStart: "5rem"
       }
     },
     {
       "category": "margin",
       "class": "me-20",
       "properties": {
-        "margin-inline-end": "5rem"
+        marginInlineEnd: "5rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-20",
       "properties": {
-        "margin-top": "5rem"
+        marginTop: "5rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-20",
       "properties": {
-        "margin-right": "5rem"
+        marginRight: "5rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-20",
       "properties": {
-        "margin-bottom": "5rem"
+        marginBottom: "5rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-20",
       "properties": {
-        "margin-left": "5rem"
+        marginLeft: "5rem"
       }
     },
     {
@@ -2286,58 +2286,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-24",
       "properties": {
-        "margin-left": "6rem",
-        "margin-right": "6rem"
+        marginLeft: "6rem",
+        marginRight: "6rem"
       }
     },
     {
       "category": "margin",
       "class": "my-24",
       "properties": {
-        "margin-top": "6rem",
-        "margin-bottom": "6rem"
+        marginTop: "6rem",
+        marginBottom: "6rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-24",
       "properties": {
-        "margin-inline-start": "6rem"
+        marginInlineStart: "6rem"
       }
     },
     {
       "category": "margin",
       "class": "me-24",
       "properties": {
-        "margin-inline-end": "6rem"
+        marginInlineEnd: "6rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-24",
       "properties": {
-        "margin-top": "6rem"
+        marginTop: "6rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-24",
       "properties": {
-        "margin-right": "6rem"
+        marginRight: "6rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-24",
       "properties": {
-        "margin-bottom": "6rem"
+        marginBottom: "6rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-24",
       "properties": {
-        "margin-left": "6rem"
+        marginLeft: "6rem"
       }
     },
     {
@@ -2351,58 +2351,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-28",
       "properties": {
-        "margin-left": "7rem",
-        "margin-right": "7rem"
+        marginLeft: "7rem",
+        marginRight: "7rem"
       }
     },
     {
       "category": "margin",
       "class": "my-28",
       "properties": {
-        "margin-top": "7rem",
-        "margin-bottom": "7rem"
+        marginTop: "7rem",
+        marginBottom: "7rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-28",
       "properties": {
-        "margin-inline-start": "7rem"
+        marginInlineStart: "7rem"
       }
     },
     {
       "category": "margin",
       "class": "me-28",
       "properties": {
-        "margin-inline-end": "7rem"
+        marginInlineEnd: "7rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-28",
       "properties": {
-        "margin-top": "7rem"
+        marginTop: "7rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-28",
       "properties": {
-        "margin-right": "7rem"
+        marginRight: "7rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-28",
       "properties": {
-        "margin-bottom": "7rem"
+        marginBottom: "7rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-28",
       "properties": {
-        "margin-left": "7rem"
+        marginLeft: "7rem"
       }
     },
     {
@@ -2416,58 +2416,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-32",
       "properties": {
-        "margin-left": "8rem",
-        "margin-right": "8rem"
+        marginLeft: "8rem",
+        marginRight: "8rem"
       }
     },
     {
       "category": "margin",
       "class": "my-32",
       "properties": {
-        "margin-top": "8rem",
-        "margin-bottom": "8rem"
+        marginTop: "8rem",
+        marginBottom: "8rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-32",
       "properties": {
-        "margin-inline-start": "8rem"
+        marginInlineStart: "8rem"
       }
     },
     {
       "category": "margin",
       "class": "me-32",
       "properties": {
-        "margin-inline-end": "8rem"
+        marginInlineEnd: "8rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-32",
       "properties": {
-        "margin-top": "8rem"
+        marginTop: "8rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-32",
       "properties": {
-        "margin-right": "8rem"
+        marginRight: "8rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-32",
       "properties": {
-        "margin-bottom": "8rem"
+        marginBottom: "8rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-32",
       "properties": {
-        "margin-left": "8rem"
+        marginLeft: "8rem"
       }
     },
     {
@@ -2481,58 +2481,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-36",
       "properties": {
-        "margin-left": "9rem",
-        "margin-right": "9rem"
+        marginLeft: "9rem",
+        marginRight: "9rem"
       }
     },
     {
       "category": "margin",
       "class": "my-36",
       "properties": {
-        "margin-top": "9rem",
-        "margin-bottom": "9rem"
+        marginTop: "9rem",
+        marginBottom: "9rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-36",
       "properties": {
-        "margin-inline-start": "9rem"
+        marginInlineStart: "9rem"
       }
     },
     {
       "category": "margin",
       "class": "me-36",
       "properties": {
-        "margin-inline-end": "9rem"
+        marginInlineEnd: "9rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-36",
       "properties": {
-        "margin-top": "9rem"
+        marginTop: "9rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-36",
       "properties": {
-        "margin-right": "9rem"
+        marginRight: "9rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-36",
       "properties": {
-        "margin-bottom": "9rem"
+        marginBottom: "9rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-36",
       "properties": {
-        "margin-left": "9rem"
+        marginLeft: "9rem"
       }
     },
     {
@@ -2546,58 +2546,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-40",
       "properties": {
-        "margin-left": "10rem",
-        "margin-right": "10rem"
+        marginLeft: "10rem",
+        marginRight: "10rem"
       }
     },
     {
       "category": "margin",
       "class": "my-40",
       "properties": {
-        "margin-top": "10rem",
-        "margin-bottom": "10rem"
+        marginTop: "10rem",
+        marginBottom: "10rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-40",
       "properties": {
-        "margin-inline-start": "10rem"
+        marginInlineStart: "10rem"
       }
     },
     {
       "category": "margin",
       "class": "me-40",
       "properties": {
-        "margin-inline-end": "10rem"
+        marginInlineEnd: "10rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-40",
       "properties": {
-        "margin-top": "10rem"
+        marginTop: "10rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-40",
       "properties": {
-        "margin-right": "10rem"
+        marginRight: "10rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-40",
       "properties": {
-        "margin-bottom": "10rem"
+        marginBottom: "10rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-40",
       "properties": {
-        "margin-left": "10rem"
+        marginLeft: "10rem"
       }
     },
     {
@@ -2611,58 +2611,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-44",
       "properties": {
-        "margin-left": "11rem",
-        "margin-right": "11rem"
+        marginLeft: "11rem",
+        marginRight: "11rem"
       }
     },
     {
       "category": "margin",
       "class": "my-44",
       "properties": {
-        "margin-top": "11rem",
-        "margin-bottom": "11rem"
+        marginTop: "11rem",
+        marginBottom: "11rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-44",
       "properties": {
-        "margin-inline-start": "11rem"
+        marginInlineStart: "11rem"
       }
     },
     {
       "category": "margin",
       "class": "me-44",
       "properties": {
-        "margin-inline-end": "11rem"
+        marginInlineEnd: "11rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-44",
       "properties": {
-        "margin-top": "11rem"
+        marginTop: "11rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-44",
       "properties": {
-        "margin-right": "11rem"
+        marginRight: "11rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-44",
       "properties": {
-        "margin-bottom": "11rem"
+        marginBottom: "11rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-44",
       "properties": {
-        "margin-left": "11rem"
+        marginLeft: "11rem"
       }
     },
     {
@@ -2676,58 +2676,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-48",
       "properties": {
-        "margin-left": "12rem",
-        "margin-right": "12rem"
+        marginLeft: "12rem",
+        marginRight: "12rem"
       }
     },
     {
       "category": "margin",
       "class": "my-48",
       "properties": {
-        "margin-top": "12rem",
-        "margin-bottom": "12rem"
+        marginTop: "12rem",
+        marginBottom: "12rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-48",
       "properties": {
-        "margin-inline-start": "12rem"
+        marginInlineStart: "12rem"
       }
     },
     {
       "category": "margin",
       "class": "me-48",
       "properties": {
-        "margin-inline-end": "12rem"
+        marginInlineEnd: "12rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-48",
       "properties": {
-        "margin-top": "12rem"
+        marginTop: "12rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-48",
       "properties": {
-        "margin-right": "12rem"
+        marginRight: "12rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-48",
       "properties": {
-        "margin-bottom": "12rem"
+        marginBottom: "12rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-48",
       "properties": {
-        "margin-left": "12rem"
+        marginLeft: "12rem"
       }
     },
     {
@@ -2741,58 +2741,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-52",
       "properties": {
-        "margin-left": "13rem",
-        "margin-right": "13rem"
+        marginLeft: "13rem",
+        marginRight: "13rem"
       }
     },
     {
       "category": "margin",
       "class": "my-52",
       "properties": {
-        "margin-top": "13rem",
-        "margin-bottom": "13rem"
+        marginTop: "13rem",
+        marginBottom: "13rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-52",
       "properties": {
-        "margin-inline-start": "13rem"
+        marginInlineStart: "13rem"
       }
     },
     {
       "category": "margin",
       "class": "me-52",
       "properties": {
-        "margin-inline-end": "13rem"
+        marginInlineEnd: "13rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-52",
       "properties": {
-        "margin-top": "13rem"
+        marginTop: "13rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-52",
       "properties": {
-        "margin-right": "13rem"
+        marginRight: "13rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-52",
       "properties": {
-        "margin-bottom": "13rem"
+        marginBottom: "13rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-52",
       "properties": {
-        "margin-left": "13rem"
+        marginLeft: "13rem"
       }
     },
     {
@@ -2806,58 +2806,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-56",
       "properties": {
-        "margin-left": "14rem",
-        "margin-right": "14rem"
+        marginLeft: "14rem",
+        marginRight: "14rem"
       }
     },
     {
       "category": "margin",
       "class": "my-56",
       "properties": {
-        "margin-top": "14rem",
-        "margin-bottom": "14rem"
+        marginTop: "14rem",
+        marginBottom: "14rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-56",
       "properties": {
-        "margin-inline-start": "14rem"
+        marginInlineStart: "14rem"
       }
     },
     {
       "category": "margin",
       "class": "me-56",
       "properties": {
-        "margin-inline-end": "14rem"
+        marginInlineEnd: "14rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-56",
       "properties": {
-        "margin-top": "14rem"
+        marginTop: "14rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-56",
       "properties": {
-        "margin-right": "14rem"
+        marginRight: "14rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-56",
       "properties": {
-        "margin-bottom": "14rem"
+        marginBottom: "14rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-56",
       "properties": {
-        "margin-left": "14rem"
+        marginLeft: "14rem"
       }
     },
     {
@@ -2871,58 +2871,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-60",
       "properties": {
-        "margin-left": "15rem",
-        "margin-right": "15rem"
+        marginLeft: "15rem",
+        marginRight: "15rem"
       }
     },
     {
       "category": "margin",
       "class": "my-60",
       "properties": {
-        "margin-top": "15rem",
-        "margin-bottom": "15rem"
+        marginTop: "15rem",
+        marginBottom: "15rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-60",
       "properties": {
-        "margin-inline-start": "15rem"
+        marginInlineStart: "15rem"
       }
     },
     {
       "category": "margin",
       "class": "me-60",
       "properties": {
-        "margin-inline-end": "15rem"
+        marginInlineEnd: "15rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-60",
       "properties": {
-        "margin-top": "15rem"
+        marginTop: "15rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-60",
       "properties": {
-        "margin-right": "15rem"
+        marginRight: "15rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-60",
       "properties": {
-        "margin-bottom": "15rem"
+        marginBottom: "15rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-60",
       "properties": {
-        "margin-left": "15rem"
+        marginLeft: "15rem"
       }
     },
     {
@@ -2936,58 +2936,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-64",
       "properties": {
-        "margin-left": "16rem",
-        "margin-right": "16rem"
+        marginLeft: "16rem",
+        marginRight: "16rem"
       }
     },
     {
       "category": "margin",
       "class": "my-64",
       "properties": {
-        "margin-top": "16rem",
-        "margin-bottom": "16rem"
+        marginTop: "16rem",
+        marginBottom: "16rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-64",
       "properties": {
-        "margin-inline-start": "16rem"
+        marginInlineStart: "16rem"
       }
     },
     {
       "category": "margin",
       "class": "me-64",
       "properties": {
-        "margin-inline-end": "16rem"
+        marginInlineEnd: "16rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-64",
       "properties": {
-        "margin-top": "16rem"
+        marginTop: "16rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-64",
       "properties": {
-        "margin-right": "16rem"
+        marginRight: "16rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-64",
       "properties": {
-        "margin-bottom": "16rem"
+        marginBottom: "16rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-64",
       "properties": {
-        "margin-left": "16rem"
+        marginLeft: "16rem"
       }
     },
     {
@@ -3001,58 +3001,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-72",
       "properties": {
-        "margin-left": "18rem",
-        "margin-right": "18rem"
+        marginLeft: "18rem",
+        marginRight: "18rem"
       }
     },
     {
       "category": "margin",
       "class": "my-72",
       "properties": {
-        "margin-top": "18rem",
-        "margin-bottom": "18rem"
+        marginTop: "18rem",
+        marginBottom: "18rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-72",
       "properties": {
-        "margin-inline-start": "18rem"
+        marginInlineStart: "18rem"
       }
     },
     {
       "category": "margin",
       "class": "me-72",
       "properties": {
-        "margin-inline-end": "18rem"
+        marginInlineEnd: "18rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-72",
       "properties": {
-        "margin-top": "18rem"
+        marginTop: "18rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-72",
       "properties": {
-        "margin-right": "18rem"
+        marginRight: "18rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-72",
       "properties": {
-        "margin-bottom": "18rem"
+        marginBottom: "18rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-72",
       "properties": {
-        "margin-left": "18rem"
+        marginLeft: "18rem"
       }
     },
     {
@@ -3066,58 +3066,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-80",
       "properties": {
-        "margin-left": "20rem",
-        "margin-right": "20rem"
+        marginLeft: "20rem",
+        marginRight: "20rem"
       }
     },
     {
       "category": "margin",
       "class": "my-80",
       "properties": {
-        "margin-top": "20rem",
-        "margin-bottom": "20rem"
+        marginTop: "20rem",
+        marginBottom: "20rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-80",
       "properties": {
-        "margin-inline-start": "20rem"
+        marginInlineStart: "20rem"
       }
     },
     {
       "category": "margin",
       "class": "me-80",
       "properties": {
-        "margin-inline-end": "20rem"
+        marginInlineEnd: "20rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-80",
       "properties": {
-        "margin-top": "20rem"
+        marginTop: "20rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-80",
       "properties": {
-        "margin-right": "20rem"
+        marginRight: "20rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-80",
       "properties": {
-        "margin-bottom": "20rem"
+        marginBottom: "20rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-80",
       "properties": {
-        "margin-left": "20rem"
+        marginLeft: "20rem"
       }
     },
     {
@@ -3131,58 +3131,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-96",
       "properties": {
-        "margin-left": "24rem",
-        "margin-right": "24rem"
+        marginLeft: "24rem",
+        marginRight: "24rem"
       }
     },
     {
       "category": "margin",
       "class": "my-96",
       "properties": {
-        "margin-top": "24rem",
-        "margin-bottom": "24rem"
+        marginTop: "24rem",
+        marginBottom: "24rem"
       }
     },
     {
       "category": "margin",
       "class": "ms-96",
       "properties": {
-        "margin-inline-start": "24rem"
+        marginInlineStart: "24rem"
       }
     },
     {
       "category": "margin",
       "class": "me-96",
       "properties": {
-        "margin-inline-end": "24rem"
+        marginInlineEnd: "24rem"
       }
     },
     {
       "category": "margin",
       "class": "mt-96",
       "properties": {
-        "margin-top": "24rem"
+        marginTop: "24rem"
       }
     },
     {
       "category": "margin",
       "class": "mr-96",
       "properties": {
-        "margin-right": "24rem"
+        marginRight: "24rem"
       }
     },
     {
       "category": "margin",
       "class": "mb-96",
       "properties": {
-        "margin-bottom": "24rem"
+        marginBottom: "24rem"
       }
     },
     {
       "category": "margin",
       "class": "ml-96",
       "properties": {
-        "margin-left": "24rem"
+        marginLeft: "24rem"
       }
     },
     {
@@ -3196,58 +3196,58 @@ export const marginClasses =
       "category": "margin",
       "class": "mx-auto",
       "properties": {
-        "margin-left": "auto",
-        "margin-right": "auto"
+        marginLeft: "auto",
+        marginRight: "auto"
       }
     },
     {
       "category": "margin",
       "class": "my-auto",
       "properties": {
-        "margin-top": "auto",
-        "margin-bottom": "auto"
+        marginTop: "auto",
+        marginBottom: "auto"
       }
     },
     {
       "category": "margin",
       "class": "ms-auto",
       "properties": {
-        "margin-inline-start": "auto"
+        marginInlineStart: "auto"
       }
     },
     {
       "category": "margin",
       "class": "me-auto",
       "properties": {
-        "margin-inline-end": "auto"
+        marginInlineEnd: "auto"
       }
     },
     {
       "category": "margin",
       "class": "mt-auto",
       "properties": {
-        "margin-top": "auto"
+        marginTop: "auto"
       }
     },
     {
       "category": "margin",
       "class": "mr-auto",
       "properties": {
-        "margin-right": "auto"
+        marginRight: "auto"
       }
     },
     {
       "category": "margin",
       "class": "mb-auto",
       "properties": {
-        "margin-bottom": "auto"
+        marginBottom: "auto"
       }
     },
     {
       "category": "margin",
       "class": "ml-auto",
       "properties": {
-        "margin-left": "auto"
+        marginLeft: "auto"
       }
     }
   ];
@@ -4259,333 +4259,332 @@ export const borderRadiuses = [
 ]
 
 export const borderWidths = [
-
   {
     "category": "border-width",
     "class": "border-0",
     "properties": {
-      "border-width": "0px"
+      "borderWidth": "0px"
     }
   },
   {
     "category": "border-width",
     "class": "border-2",
     "properties": {
-      "border-width": "2px"
+      "borderWidth": "2px"
     }
   },
   {
     "category": "border-width",
     "class": "border-4",
     "properties": {
-      "border-width": "4px"
+      "borderWidth": "4px"
     }
   },
   {
     "category": "border-width",
     "class": "border-8",
     "properties": {
-      "border-width": "8px"
+      "borderWidth": "8px"
     }
   },
   {
     "category": "border-width",
     "class": "border",
     "properties": {
-      "border-width": "1px"
+      "borderWidth": "1px"
     }
   },
   {
     "category": "border-width",
     "class": "border-x-0",
     "properties": {
-      "border-left-width": "0px",
-      "border-right-width": "0px"
+      "borderLeftWidth": "0px",
+      "borderRightWidth": "0px"
     }
   },
   {
     "category": "border-width",
     "class": "border-x-2",
     "properties": {
-      "border-left-width": "2px",
-      "border-right-width": "2px"
+      "borderLeftWidth": "2px",
+      "borderRightWidth": "2px"
     }
   },
   {
     "category": "border-width",
     "class": "border-x-4",
     "properties": {
-      "border-left-width": "4px",
-      "border-right-width": "4px"
+      "borderLeftWidth": "4px",
+      "borderRightWidth": "4px"
     }
   },
   {
     "category": "border-width",
     "class": "border-x-8",
     "properties": {
-      "border-left-width": "8px",
-      "border-right-width": "8px"
+      "borderLeftWidth": "8px",
+      "borderRightWidth": "8px"
     }
   },
   {
     "category": "border-width",
     "class": "border-x",
     "properties": {
-      "border-left-width": "1px",
-      "border-right-width": "1px"
+      "borderLeftWidth": "1px",
+      "borderRightWidth": "1px"
     }
   },
   {
     "category": "border-width",
     "class": "border-y-0",
     "properties": {
-      "border-top-width": "0px",
-      "border-bottom-width": "0px"
+      "borderTopWidth": "0px",
+      "borderBottomWidth": "0px"
     }
   },
   {
     "category": "border-width",
     "class": "border-y-2",
     "properties": {
-      "border-top-width": "2px",
-      "border-bottom-width": "2px"
+      "borderTopWidth": "2px",
+      "borderBottomWidth": "2px"
     }
   },
   {
     "category": "border-width",
     "class": "border-y-4",
     "properties": {
-      "border-top-width": "4px",
-      "border-bottom-width": "4px"
+      "borderTopWidth": "4px",
+      "borderBottomWidth": "4px"
     }
   },
   {
     "category": "border-width",
     "class": "border-y-8",
     "properties": {
-      "border-top-width": "8px",
-      "border-bottom-width": "8px"
+      "borderTopWidth": "8px",
+      "borderBottomWidth": "8px"
     }
   },
   {
     "category": "border-width",
     "class": "border-y",
     "properties": {
-      "border-top-width": "1px",
-      "border-bottom-width": "1px"
+      "borderTopWidth": "1px",
+      "borderBottomWidth": "1px"
     }
   },
   {
     "category": "border-width",
     "class": "border-s-0",
     "properties": {
-      "border-inline-start-width": "0px"
+      "borderInlineStartWidth": "0px"
     }
   },
   {
     "category": "border-width",
     "class": "border-s-2",
     "properties": {
-      "border-inline-start-width": "2px"
+      "borderInlineStartWidth": "2px"
     }
   },
   {
     "category": "border-width",
     "class": "border-s-4",
     "properties": {
-      "border-inline-start-width": "4px"
+      "borderInlineStartWidth": "4px"
     }
   },
   {
     "category": "border-width",
     "class": "border-s-8",
     "properties": {
-      "border-inline-start-width": "8px"
+      "borderInlineStartWidth": "8px"
     }
   },
   {
     "category": "border-width",
     "class": "border-s",
     "properties": {
-      "border-inline-start-width": "1px"
+      "borderInlineStartWidth": "1px"
     }
   },
   {
     "category": "border-width",
     "class": "border-e-0",
     "properties": {
-      "border-inline-end-width": "0px"
+      "borderInlineEndWidth": "0px"
     }
   },
   {
     "category": "border-width",
     "class": "border-e-2",
     "properties": {
-      "border-inline-end-width": "2px"
+      "borderInlineEndWidth": "2px"
     }
   },
   {
     "category": "border-width",
     "class": "border-e-4",
     "properties": {
-      "border-inline-end-width": "4px"
+      "borderInlineEndWidth": "4px"
     }
   },
   {
     "category": "border-width",
     "class": "border-e-8",
     "properties": {
-      "border-inline-end-width": "8px"
+      "borderInlineEndWidth": "8px"
     }
   },
   {
     "category": "border-width",
     "class": "border-e",
     "properties": {
-      "border-inline-end-width": "1px"
+      "borderInlineEndWidth": "1px"
     }
   },
   {
     "category": "border-width",
     "class": "border-t-0",
     "properties": {
-      "border-top-width": "0px"
+      "borderTopWidth": "0px"
     }
   },
   {
     "category": "border-width",
     "class": "border-t-2",
     "properties": {
-      "border-top-width": "2px"
+      "borderTopWidth": "2px"
     }
   },
   {
     "category": "border-width",
     "class": "border-t-4",
     "properties": {
-      "border-top-width": "4px"
+      "borderTopWidth": "4px"
     }
   },
   {
     "category": "border-width",
     "class": "border-t-8",
     "properties": {
-      "border-top-width": "8px"
+      "borderTopWidth": "8px"
     }
   },
   {
     "category": "border-width",
     "class": "border-t",
     "properties": {
-      "border-top-width": "1px"
+      "borderTopWidth": "1px"
     }
   },
   {
     "category": "border-width",
     "class": "border-r-0",
     "properties": {
-      "border-right-width": "0px"
+      "borderRightWidth": "0px"
     }
   },
   {
     "category": "border-width",
     "class": "border-r-2",
     "properties": {
-      "border-right-width": "2px"
+      "borderRightWidth": "2px"
     }
   },
   {
     "category": "border-width",
     "class": "border-r-4",
     "properties": {
-      "border-right-width": "4px"
+      "borderRightWidth": "4px"
     }
   },
   {
     "category": "border-width",
     "class": "border-r-8",
     "properties": {
-      "border-right-width": "8px"
+      "borderRightWidth": "8px"
     }
   },
   {
     "category": "border-width",
     "class": "border-r",
     "properties": {
-      "border-right-width": "1px"
+      "borderRightWidth": "1px"
     }
   },
   {
     "category": "border-width",
     "class": "border-b-0",
     "properties": {
-      "border-bottom-width": "0px"
+      "borderBottomWidth": "0px"
     }
   },
   {
     "category": "border-width",
     "class": "border-b-2",
     "properties": {
-      "border-bottom-width": "2px"
+      "borderBottomWidth": "2px"
     }
   },
   {
     "category": "border-width",
     "class": "border-b-4",
     "properties": {
-      "border-bottom-width": "4px"
+      "borderBottomWidth": "4px"
     }
   },
   {
     "category": "border-width",
     "class": "border-b-8",
     "properties": {
-      "border-bottom-width": "8px"
+      "borderBottomWidth": "8px"
     }
   },
   {
     "category": "border-width",
     "class": "border-b",
     "properties": {
-      "border-bottom-width": "1px"
+      "borderBottomWidth": "1px"
     }
   },
   {
     "category": "border-width",
     "class": "border-l-0",
     "properties": {
-      "border-left-width": "0px"
+      "borderLeftWidth": "0px"
     }
   },
   {
     "category": "border-width",
     "class": "border-l-2",
     "properties": {
-      "border-left-width": "2px"
+      "borderLeftWidth": "2px"
     }
   },
   {
     "category": "border-width",
     "class": "border-l-4",
     "properties": {
-      "border-left-width": "4px"
+      "borderLeftWidth": "4px"
     }
   },
   {
     "category": "border-width",
     "class": "border-l-8",
     "properties": {
-      "border-left-width": "8px"
+      "borderLeftWidth": "8px"
     }
   },
   {
     "category": "border-width",
     "class": "border-l",
     "properties": {
-      "border-left-width": "1px"
+      "borderLeftWidth": "1px"
     }
   }
-]
+];
 
 
 export const colors =
@@ -6315,1774 +6314,3766 @@ export const colors =
     }
   ]
 
-export const backgroundColors =
-  [
-
-    {
-      "category": "background-color",
-      "class": "inherit",
-      "properties": {
-        "background-color": "inherit"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "transparent",
-      "properties": {
-        "background-color": "transparent"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "black",
-      "properties": {
-        "background-color": "rgb(0 0 0)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "white",
-      "properties": {
-        "background-color": "rgb(255 255 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-50",
-      "properties": {
-        "background-color": "rgb(248 250 252)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-100",
-      "properties": {
-        "background-color": "rgb(241 245 249)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-200",
-      "properties": {
-        "background-color": "rgb(226 232 240)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-300",
-      "properties": {
-        "background-color": "rgb(203 213 225)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-400",
-      "properties": {
-        "background-color": "rgb(148 163 184)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-500",
-      "properties": {
-        "background-color": "rgb(100 116 139)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-600",
-      "properties": {
-        "background-color": "rgb(71 85 105)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-700",
-      "properties": {
-        "background-color": "rgb(51 65 85)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-800",
-      "properties": {
-        "background-color": "rgb(30 41 59)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-900",
-      "properties": {
-        "background-color": "rgb(15 23 42)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "slate-950",
-      "properties": {
-        "background-color": "rgb(2 6 23)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-50",
-      "properties": {
-        "background-color": "rgb(249 250 251)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-100",
-      "properties": {
-        "background-color": "rgb(243 244 246)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-200",
-      "properties": {
-        "background-color": "rgb(229 231 235)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-300",
-      "properties": {
-        "background-color": "rgb(209 213 219)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-400",
-      "properties": {
-        "background-color": "rgb(156 163 175)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-500",
-      "properties": {
-        "background-color": "rgb(107 114 128)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-600",
-      "properties": {
-        "background-color": "rgb(75 85 99)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-700",
-      "properties": {
-        "background-color": "rgb(55 65 81)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-800",
-      "properties": {
-        "background-color": "rgb(31 41 55)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-900",
-      "properties": {
-        "background-color": "rgb(17 24 39)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "gray-950",
-      "properties": {
-        "background-color": "rgb(3 7 18)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-50",
-      "properties": {
-        "background-color": "rgb(250 250 250)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-100",
-      "properties": {
-        "background-color": "rgb(244 244 245)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-200",
-      "properties": {
-        "background-color": "rgb(228 228 231)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-300",
-      "properties": {
-        "background-color": "rgb(212 212 216)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-400",
-      "properties": {
-        "background-color": "rgb(161 161 170)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-500",
-      "properties": {
-        "background-color": "rgb(113 113 122)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-600",
-      "properties": {
-        "background-color": "rgb(82 82 91)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-700",
-      "properties": {
-        "background-color": "rgb(63 63 70)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-800",
-      "properties": {
-        "background-color": "rgb(39 39 42)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-900",
-      "properties": {
-        "background-color": "rgb(24 24 27)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "zinc-950",
-      "properties": {
-        "background-color": "rgb(9 9 11)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-50",
-      "properties": {
-        "background-color": "rgb(250 250 250)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-100",
-      "properties": {
-        "background-color": "rgb(245 245 245)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-200",
-      "properties": {
-        "background-color": "rgb(229 229 229)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-300",
-      "properties": {
-        "background-color": "rgb(212 212 212)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-400",
-      "properties": {
-        "background-color": "rgb(163 163 163)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-500",
-      "properties": {
-        "background-color": "rgb(115 115 115)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-600",
-      "properties": {
-        "background-color": "rgb(82 82 82)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-700",
-      "properties": {
-        "background-color": "rgb(64 64 64)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-800",
-      "properties": {
-        "background-color": "rgb(38 38 38)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-900",
-      "properties": {
-        "background-color": "rgb(23 23 23)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "neutral-950",
-      "properties": {
-        "background-color": "rgb(10 10 10)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-50",
-      "properties": {
-        "background-color": "rgb(250 250 249)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-100",
-      "properties": {
-        "background-color": "rgb(245 245 244)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-200",
-      "properties": {
-        "background-color": "rgb(231 229 228)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-300",
-      "properties": {
-        "background-color": "rgb(214 211 209)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-400",
-      "properties": {
-        "background-color": "rgb(168 162 158)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-500",
-      "properties": {
-        "background-color": "rgb(120 113 108)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-600",
-      "properties": {
-        "background-color": "rgb(87 83 78)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-700",
-      "properties": {
-        "background-color": "rgb(68 64 60)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-800",
-      "properties": {
-        "background-color": "rgb(41 37 36)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-900",
-      "properties": {
-        "background-color": "rgb(28 25 23)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "stone-950",
-      "properties": {
-        "background-color": "rgb(12 10 9)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-50",
-      "properties": {
-        "background-color": "rgb(254 242 242)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-100",
-      "properties": {
-        "background-color": "rgb(254 226 226)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-200",
-      "properties": {
-        "background-color": "rgb(254 202 202)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-300",
-      "properties": {
-        "background-color": "rgb(252 165 165)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-400",
-      "properties": {
-        "background-color": "rgb(248 113 113)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-500",
-      "properties": {
-        "background-color": "rgb(239 68 68)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-600",
-      "properties": {
-        "background-color": "rgb(220 38 38)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-700",
-      "properties": {
-        "background-color": "rgb(185 28 28)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-800",
-      "properties": {
-        "background-color": "rgb(153 27 27)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-900",
-      "properties": {
-        "background-color": "rgb(127 29 29)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "red-950",
-      "properties": {
-        "background-color": "rgb(69 10 10)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-50",
-      "properties": {
-        "background-color": "rgb(255 247 237)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-100",
-      "properties": {
-        "background-color": "rgb(255 237 213)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-200",
-      "properties": {
-        "background-color": "rgb(254 215 170)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-300",
-      "properties": {
-        "background-color": "rgb(253 186 116)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-400",
-      "properties": {
-        "background-color": "rgb(251 146 60)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-500",
-      "properties": {
-        "background-color": "rgb(249 115 22)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-600",
-      "properties": {
-        "background-color": "rgb(234 88 12)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-700",
-      "properties": {
-        "background-color": "rgb(194 65 12)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-800",
-      "properties": {
-        "background-color": "rgb(154 52 18)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-900",
-      "properties": {
-        "background-color": "rgb(124 45 18)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "orange-950",
-      "properties": {
-        "background-color": "rgb(67 20 7)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-50",
-      "properties": {
-        "background-color": "rgb(255 251 235)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-100",
-      "properties": {
-        "background-color": "rgb(254 243 199)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-200",
-      "properties": {
-        "background-color": "rgb(253 230 138)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-300",
-      "properties": {
-        "background-color": "rgb(252 211 77)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-400",
-      "properties": {
-        "background-color": "rgb(251 191 36)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-500",
-      "properties": {
-        "background-color": "rgb(245 158 11)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-600",
-      "properties": {
-        "background-color": "rgb(217 119 6)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-700",
-      "properties": {
-        "background-color": "rgb(180 83 9)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-800",
-      "properties": {
-        "background-color": "rgb(146 64 14)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-900",
-      "properties": {
-        "background-color": "rgb(120 53 15)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "amber-950",
-      "properties": {
-        "background-color": "rgb(69 26 3)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-50",
-      "properties": {
-        "background-color": "rgb(254 252 232)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-100",
-      "properties": {
-        "background-color": "rgb(254 249 195)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-200",
-      "properties": {
-        "background-color": "rgb(254 240 138)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-300",
-      "properties": {
-        "background-color": "rgb(253 224 71)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-400",
-      "properties": {
-        "background-color": "rgb(250 204 21)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-500",
-      "properties": {
-        "background-color": "rgb(234 179 8)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-600",
-      "properties": {
-        "background-color": "rgb(202 138 4)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-700",
-      "properties": {
-        "background-color": "rgb(161 98 7)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-800",
-      "properties": {
-        "background-color": "rgb(133 77 14)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-900",
-      "properties": {
-        "background-color": "rgb(113 63 18)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "yellow-950",
-      "properties": {
-        "background-color": "rgb(66 32 6)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-50",
-      "properties": {
-        "background-color": "rgb(247 254 231)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-100",
-      "properties": {
-        "background-color": "rgb(236 252 203)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-200",
-      "properties": {
-        "background-color": "rgb(217 249 157)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-300",
-      "properties": {
-        "background-color": "rgb(190 242 100)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-400",
-      "properties": {
-        "background-color": "rgb(163 230 53)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-500",
-      "properties": {
-        "background-color": "rgb(132 204 22)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-600",
-      "properties": {
-        "background-color": "rgb(101 163 13)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-700",
-      "properties": {
-        "background-color": "rgb(77 124 15)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-800",
-      "properties": {
-        "background-color": "rgb(63 98 18)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-900",
-      "properties": {
-        "background-color": "rgb(54 83 20)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "lime-950",
-      "properties": {
-        "background-color": "rgb(26 46 5)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-50",
-      "properties": {
-        "background-color": "rgb(240 253 244)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-100",
-      "properties": {
-        "background-color": "rgb(220 252 231)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-200",
-      "properties": {
-        "background-color": "rgb(187 247 208)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-300",
-      "properties": {
-        "background-color": "rgb(134 239 172)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-400",
-      "properties": {
-        "background-color": "rgb(74 222 128)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-500",
-      "properties": {
-        "background-color": "rgb(34 197 94)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-600",
-      "properties": {
-        "background-color": "rgb(22 163 74)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-700",
-      "properties": {
-        "background-color": "rgb(21 128 61)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-800",
-      "properties": {
-        "background-color": "rgb(22 101 52)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-900",
-      "properties": {
-        "background-color": "rgb(20 83 45)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "green-950",
-      "properties": {
-        "background-color": "rgb(5 46 22)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-50",
-      "properties": {
-        "background-color": "rgb(236 253 245)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-100",
-      "properties": {
-        "background-color": "rgb(209 250 229)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-200",
-      "properties": {
-        "background-color": "rgb(167 243 208)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-300",
-      "properties": {
-        "background-color": "rgb(110 231 183)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-400",
-      "properties": {
-        "background-color": "rgb(52 211 153)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-500",
-      "properties": {
-        "background-color": "rgb(16 185 129)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-600",
-      "properties": {
-        "background-color": "rgb(5 150 105)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-700",
-      "properties": {
-        "background-color": "rgb(4 120 87)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-800",
-      "properties": {
-        "background-color": "rgb(6 95 70)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-900",
-      "properties": {
-        "background-color": "rgb(6 78 59)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "emerald-950",
-      "properties": {
-        "background-color": "rgb(2 44 34)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-50",
-      "properties": {
-        "background-color": "rgb(240 253 250)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-100",
-      "properties": {
-        "background-color": "rgb(204 251 241)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-200",
-      "properties": {
-        "background-color": "rgb(153 246 228)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-300",
-      "properties": {
-        "background-color": "rgb(94 234 212)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-400",
-      "properties": {
-        "background-color": "rgb(45 212 191)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-500",
-      "properties": {
-        "background-color": "rgb(20 184 166)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-600",
-      "properties": {
-        "background-color": "rgb(13 148 136)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-700",
-      "properties": {
-        "background-color": "rgb(15 118 110)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-800",
-      "properties": {
-        "background-color": "rgb(17 94 89)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-900",
-      "properties": {
-        "background-color": "rgb(19 78 74)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "teal-950",
-      "properties": {
-        "background-color": "rgb(4 47 46)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-50",
-      "properties": {
-        "background-color": "rgb(236 254 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-100",
-      "properties": {
-        "background-color": "rgb(207 250 254)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-200",
-      "properties": {
-        "background-color": "rgb(165 243 252)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-300",
-      "properties": {
-        "background-color": "rgb(103 232 249)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-400",
-      "properties": {
-        "background-color": "rgb(34 211 238)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-500",
-      "properties": {
-        "background-color": "rgb(6 182 212)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-600",
-      "properties": {
-        "background-color": "rgb(8 145 178)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-700",
-      "properties": {
-        "background-color": "rgb(14 116 144)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-800",
-      "properties": {
-        "background-color": "rgb(21 94 117)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-900",
-      "properties": {
-        "background-color": "rgb(22 78 99)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "cyan-950",
-      "properties": {
-        "background-color": "rgb(8 51 68)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-50",
-      "properties": {
-        "background-color": "rgb(240 249 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-100",
-      "properties": {
-        "background-color": "rgb(224 242 254)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-200",
-      "properties": {
-        "background-color": "rgb(186 230 253)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-300",
-      "properties": {
-        "background-color": "rgb(125 211 252)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-400",
-      "properties": {
-        "background-color": "rgb(56 189 248)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-500",
-      "properties": {
-        "background-color": "rgb(14 165 233)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-600",
-      "properties": {
-        "background-color": "rgb(2 132 199)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-700",
-      "properties": {
-        "background-color": "rgb(3 105 161)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-800",
-      "properties": {
-        "background-color": "rgb(7 89 133)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-900",
-      "properties": {
-        "background-color": "rgb(12 74 110)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "sky-950",
-      "properties": {
-        "background-color": "rgb(8 47 73)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-50",
-      "properties": {
-        "background-color": "rgb(239 246 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-100",
-      "properties": {
-        "background-color": "rgb(219 234 254)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-200",
-      "properties": {
-        "background-color": "rgb(191 219 254)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-300",
-      "properties": {
-        "background-color": "rgb(147 197 253)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-400",
-      "properties": {
-        "background-color": "rgb(96 165 250)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-500",
-      "properties": {
-        "background-color": "rgb(59 130 246)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-600",
-      "properties": {
-        "background-color": "rgb(37 99 235)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-700",
-      "properties": {
-        "background-color": "rgb(29 78 216)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-800",
-      "properties": {
-        "background-color": "rgb(30 64 175)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-900",
-      "properties": {
-        "background-color": "rgb(30 58 138)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "blue-950",
-      "properties": {
-        "background-color": "rgb(23 37 84)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-50",
-      "properties": {
-        "background-color": "rgb(238 242 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-100",
-      "properties": {
-        "background-color": "rgb(224 231 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-200",
-      "properties": {
-        "background-color": "rgb(199 210 254)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-300",
-      "properties": {
-        "background-color": "rgb(165 180 252)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-400",
-      "properties": {
-        "background-color": "rgb(129 140 248)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-500",
-      "properties": {
-        "background-color": "rgb(99 102 241)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-600",
-      "properties": {
-        "background-color": "rgb(79 70 229)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-700",
-      "properties": {
-        "background-color": "rgb(67 56 202)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-800",
-      "properties": {
-        "background-color": "rgb(55 48 163)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-900",
-      "properties": {
-        "background-color": "rgb(49 46 129)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "indigo-950",
-      "properties": {
-        "background-color": "rgb(30 27 75)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-50",
-      "properties": {
-        "background-color": "rgb(245 243 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-100",
-      "properties": {
-        "background-color": "rgb(237 233 254)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-200",
-      "properties": {
-        "background-color": "rgb(221 214 254)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-300",
-      "properties": {
-        "background-color": "rgb(196 181 253)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-400",
-      "properties": {
-        "background-color": "rgb(167 139 250)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-500",
-      "properties": {
-        "background-color": "rgb(139 92 246)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-600",
-      "properties": {
-        "background-color": "rgb(124 58 237)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-700",
-      "properties": {
-        "background-color": "rgb(109 40 217)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-800",
-      "properties": {
-        "background-color": "rgb(91 33 182)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-900",
-      "properties": {
-        "background-color": "rgb(76 29 149)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "violet-950",
-      "properties": {
-        "background-color": "rgb(46 16 101)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-50",
-      "properties": {
-        "background-color": "rgb(250 245 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-100",
-      "properties": {
-        "background-color": "rgb(243 232 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-200",
-      "properties": {
-        "background-color": "rgb(233 213 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-300",
-      "properties": {
-        "background-color": "rgb(216 180 254)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-400",
-      "properties": {
-        "background-color": "rgb(192 132 252)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-500",
-      "properties": {
-        "background-color": "rgb(168 85 247)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-600",
-      "properties": {
-        "background-color": "rgb(147 51 234)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-700",
-      "properties": {
-        "background-color": "rgb(126 34 206)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-800",
-      "properties": {
-        "background-color": "rgb(107 33 168)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-900",
-      "properties": {
-        "background-color": "rgb(88 28 135)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "purple-950",
-      "properties": {
-        "background-color": "rgb(59 7 100)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-50",
-      "properties": {
-        "background-color": "rgb(253 244 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-100",
-      "properties": {
-        "background-color": "rgb(250 232 255)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-200",
-      "properties": {
-        "background-color": "rgb(245 208 254)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-300",
-      "properties": {
-        "background-color": "rgb(240 171 252)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-400",
-      "properties": {
-        "background-color": "rgb(232 121 249)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-500",
-      "properties": {
-        "background-color": "rgb(217 70 239)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-600",
-      "properties": {
-        "background-color": "rgb(192 38 211)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-700",
-      "properties": {
-        "background-color": "rgb(162 28 175)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-800",
-      "properties": {
-        "background-color": "rgb(134 25 143)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-900",
-      "properties": {
-        "background-color": "rgb(112 26 117)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "fuchsia-950",
-      "properties": {
-        "background-color": "rgb(74 4 78)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-50",
-      "properties": {
-        "background-color": "rgb(253 242 248)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-100",
-      "properties": {
-        "background-color": "rgb(252 231 243)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-200",
-      "properties": {
-        "background-color": "rgb(251 207 232)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-300",
-      "properties": {
-        "background-color": "rgb(249 168 212)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-400",
-      "properties": {
-        "background-color": "rgb(244 114 182)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-500",
-      "properties": {
-        "background-color": "rgb(236 72 153)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-600",
-      "properties": {
-        "background-color": "rgb(219 39 119)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-700",
-      "properties": {
-        "background-color": "rgb(190 24 93)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-800",
-      "properties": {
-        "background-color": "rgb(157 23 77)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-900",
-      "properties": {
-        "background-color": "rgb(131 24 67)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "pink-950",
-      "properties": {
-        "background-color": "rgb(80 7 36)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-50",
-      "properties": {
-        "background-color": "rgb(255 241 242)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-100",
-      "properties": {
-        "background-color": "rgb(255 228 230)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-200",
-      "properties": {
-        "background-color": "rgb(254 205 211)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-300",
-      "properties": {
-        "background-color": "rgb(253 164 175)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-400",
-      "properties": {
-        "background-color": "rgb(251 113 133)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-500",
-      "properties": {
-        "background-color": "rgb(244 63 94)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-600",
-      "properties": {
-        "background-color": "rgb(225 29 72)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-700",
-      "properties": {
-        "background-color": "rgb(190 18 60)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-800",
-      "properties": {
-        "background-color": "rgb(159 18 57)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-900",
-      "properties": {
-        "background-color": "rgb(136 19 55)"
-      }
-    },
-    {
-      "category": "background-color",
-      "class": "rose-950",
-      "properties": {
-        "background-color": "rgb(76 5 25)"
-      }
+export const backgroundColors =[
+  {
+    "category": "background-color",
+    "class": "bg-inherit",
+    "properties": {
+      "backgroundColor": "inherit"
     }
-  ]
+  },
+  {
+    "category": "background-color",
+    "class": "bg-current",
+    "properties": {
+      "backgroundColor": "currentColor"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-transparent",
+    "properties": {
+      "backgroundColor": "transparent"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-black",
+    "properties": {
+      "backgroundColor": "rgb(0 0 0)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-white",
+    "properties": {
+      "backgroundColor": "rgb(255 255 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-50",
+    "properties": {
+      "backgroundColor": "rgb(248 250 252)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-100",
+    "properties": {
+      "backgroundColor": "rgb(241 245 249)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-200",
+    "properties": {
+      "backgroundColor": "rgb(226 232 240)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-300",
+    "properties": {
+      "backgroundColor": "rgb(203 213 225)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-400",
+    "properties": {
+      "backgroundColor": "rgb(148 163 184)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-500",
+    "properties": {
+      "backgroundColor": "rgb(100 116 139)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-600",
+    "properties": {
+      "backgroundColor": "rgb(71 85 105)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-700",
+    "properties": {
+      "backgroundColor": "rgb(51 65 85)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-800",
+    "properties": {
+      "backgroundColor": "rgb(30 41 59)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-900",
+    "properties": {
+      "backgroundColor": "rgb(15 23 42)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-slate-950",
+    "properties": {
+      "backgroundColor": "rgb(2 6 23)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-50",
+    "properties": {
+      "backgroundColor": "rgb(249 250 251)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-100",
+    "properties": {
+      "backgroundColor": "rgb(243 244 246)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-200",
+    "properties": {
+      "backgroundColor": "rgb(229 231 235)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-300",
+    "properties": {
+      "backgroundColor": "rgb(209 213 219)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-400",
+    "properties": {
+      "backgroundColor": "rgb(156 163 175)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-500",
+    "properties": {
+      "backgroundColor": "rgb(107 114 128)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-600",
+    "properties": {
+      "backgroundColor": "rgb(75 85 99)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-700",
+    "properties": {
+      "backgroundColor": "rgb(55 65 81)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-800",
+    "properties": {
+      "backgroundColor": "rgb(31 41 55)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-900",
+    "properties": {
+      "backgroundColor": "rgb(17 24 39)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-gray-950",
+    "properties": {
+      "backgroundColor": "rgb(3 7 18)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-50",
+    "properties": {
+      "backgroundColor": "rgb(250 250 250)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-100",
+    "properties": {
+      "backgroundColor": "rgb(244 244 245)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-200",
+    "properties": {
+      "backgroundColor": "rgb(228 228 231)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-300",
+    "properties": {
+      "backgroundColor": "rgb(212 212 216)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-400",
+    "properties": {
+      "backgroundColor": "rgb(161 161 170)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-500",
+    "properties": {
+      "backgroundColor": "rgb(113 113 122)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-600",
+    "properties": {
+      "backgroundColor": "rgb(82 82 91)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-700",
+    "properties": {
+      "backgroundColor": "rgb(63 63 70)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-800",
+    "properties": {
+      "backgroundColor": "rgb(39 39 42)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-900",
+    "properties": {
+      "backgroundColor": "rgb(24 24 27)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-zinc-950",
+    "properties": {
+      "backgroundColor": "rgb(9 9 11)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-50",
+    "properties": {
+      "backgroundColor": "rgb(250 250 250)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-100",
+    "properties": {
+      "backgroundColor": "rgb(245 245 245)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-200",
+    "properties": {
+      "backgroundColor": "rgb(229 229 229)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-300",
+    "properties": {
+      "backgroundColor": "rgb(212 212 212)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-400",
+    "properties": {
+      "backgroundColor": "rgb(163 163 163)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-500",
+    "properties": {
+      "backgroundColor": "rgb(115 115 115)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-600",
+    "properties": {
+      "backgroundColor": "rgb(82 82 82)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-700",
+    "properties": {
+      "backgroundColor": "rgb(64 64 64)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-800",
+    "properties": {
+      "backgroundColor": "rgb(38 38 38)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-900",
+    "properties": {
+      "backgroundColor": "rgb(23 23 23)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-neutral-950",
+    "properties": {
+      "backgroundColor": "rgb(10 10 10)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-50",
+    "properties": {
+      "backgroundColor": "rgb(250 250 249)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-100",
+    "properties": {
+      "backgroundColor": "rgb(245 245 244)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-200",
+    "properties": {
+      "backgroundColor": "rgb(231 229 228)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-300",
+    "properties": {
+      "backgroundColor": "rgb(214 211 209)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-400",
+    "properties": {
+      "backgroundColor": "rgb(168 162 158)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-500",
+    "properties": {
+      "backgroundColor": "rgb(120 113 108)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-600",
+    "properties": {
+      "backgroundColor": "rgb(87 83 78)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-700",
+    "properties": {
+      "backgroundColor": "rgb(68 64 60)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-800",
+    "properties": {
+      "backgroundColor": "rgb(41 37 36)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-900",
+    "properties": {
+      "backgroundColor": "rgb(28 25 23)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-stone-950",
+    "properties": {
+      "backgroundColor": "rgb(12 10 9)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-50",
+    "properties": {
+      "backgroundColor": "rgb(254 242 242)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-100",
+    "properties": {
+      "backgroundColor": "rgb(254 226 226)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-200",
+    "properties": {
+      "backgroundColor": "rgb(254 202 202)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-300",
+    "properties": {
+      "backgroundColor": "rgb(252 165 165)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-400",
+    "properties": {
+      "backgroundColor": "rgb(248 113 113)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-500",
+    "properties": {
+      "backgroundColor": "rgb(239 68 68)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-600",
+    "properties": {
+      "backgroundColor": "rgb(220 38 38)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-700",
+    "properties": {
+      "backgroundColor": "rgb(185 28 28)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-800",
+    "properties": {
+      "backgroundColor": "rgb(153 27 27)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-900",
+    "properties": {
+      "backgroundColor": "rgb(127 29 29)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-red-950",
+    "properties": {
+      "backgroundColor": "rgb(69 10 10)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-50",
+    "properties": {
+      "backgroundColor": "rgb(255 247 237)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-100",
+    "properties": {
+      "backgroundColor": "rgb(255 237 213)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-200",
+    "properties": {
+      "backgroundColor": "rgb(254 215 170)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-300",
+    "properties": {
+      "backgroundColor": "rgb(253 186 116)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-400",
+    "properties": {
+      "backgroundColor": "rgb(251 146 60)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-500",
+    "properties": {
+      "backgroundColor": "rgb(249 115 22)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-600",
+    "properties": {
+      "backgroundColor": "rgb(234 88 12)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-700",
+    "properties": {
+      "backgroundColor": "rgb(194 65 12)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-800",
+    "properties": {
+      "backgroundColor": "rgb(154 52 18)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-900",
+    "properties": {
+      "backgroundColor": "rgb(124 45 18)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-orange-950",
+    "properties": {
+      "backgroundColor": "rgb(67 20 7)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-50",
+    "properties": {
+      "backgroundColor": "rgb(255 251 235)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-100",
+    "properties": {
+      "backgroundColor": "rgb(254 243 199)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-200",
+    "properties": {
+      "backgroundColor": "rgb(253 230 138)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-300",
+    "properties": {
+      "backgroundColor": "rgb(252 211 77)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-400",
+    "properties": {
+      "backgroundColor": "rgb(251 191 36)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-500",
+    "properties": {
+      "backgroundColor": "rgb(245 158 11)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-600",
+    "properties": {
+      "backgroundColor": "rgb(217 119 6)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-700",
+    "properties": {
+      "backgroundColor": "rgb(180 83 9)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-800",
+    "properties": {
+      "backgroundColor": "rgb(146 64 14)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-900",
+    "properties": {
+      "backgroundColor": "rgb(120 53 15)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-amber-950",
+    "properties": {
+      "backgroundColor": "rgb(69 26 3)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-50",
+    "properties": {
+      "backgroundColor": "rgb(254 252 232)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-100",
+    "properties": {
+      "backgroundColor": "rgb(254 249 195)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-200",
+    "properties": {
+      "backgroundColor": "rgb(254 240 138)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-300",
+    "properties": {
+      "backgroundColor": "rgb(253 224 71)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-400",
+    "properties": {
+      "backgroundColor": "rgb(250 204 21)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-500",
+    "properties": {
+      "backgroundColor": "rgb(234 179 8)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-600",
+    "properties": {
+      "backgroundColor": "rgb(202 138 4)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-700",
+    "properties": {
+      "backgroundColor": "rgb(161 98 7)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-800",
+    "properties": {
+      "backgroundColor": "rgb(133 77 14)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-900",
+    "properties": {
+      "backgroundColor": "rgb(113 63 18)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-yellow-950",
+    "properties": {
+      "backgroundColor": "rgb(66 32 6)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-50",
+    "properties": {
+      "backgroundColor": "rgb(247 254 231)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-100",
+    "properties": {
+      "backgroundColor": "rgb(236 252 203)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-200",
+    "properties": {
+      "backgroundColor": "rgb(217 249 157)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-300",
+    "properties": {
+      "backgroundColor": "rgb(190 242 100)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-400",
+    "properties": {
+      "backgroundColor": "rgb(163 230 53)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-500",
+    "properties": {
+      "backgroundColor": "rgb(132 204 22)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-600",
+    "properties": {
+      "backgroundColor": "rgb(101 163 13)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-700",
+    "properties": {
+      "backgroundColor": "rgb(77 124 15)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-800",
+    "properties": {
+      "backgroundColor": "rgb(63 98 18)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-900",
+    "properties": {
+      "backgroundColor": "rgb(54 83 20)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-lime-950",
+    "properties": {
+      "backgroundColor": "rgb(26 46 5)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-50",
+    "properties": {
+      "backgroundColor": "rgb(240 253 244)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-100",
+    "properties": {
+      "backgroundColor": "rgb(220 252 231)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-200",
+    "properties": {
+      "backgroundColor": "rgb(187 247 208)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-300",
+    "properties": {
+      "backgroundColor": "rgb(134 239 172)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-400",
+    "properties": {
+      "backgroundColor": "rgb(74 222 128)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-500",
+    "properties": {
+      "backgroundColor": "rgb(34 197 94)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-600",
+    "properties": {
+      "backgroundColor": "rgb(22 163 74)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-700",
+    "properties": {
+      "backgroundColor": "rgb(21 128 61)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-800",
+    "properties": {
+      "backgroundColor": "rgb(22 101 52)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-900",
+    "properties": {
+      "backgroundColor": "rgb(20 83 45)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-green-950",
+    "properties": {
+      "backgroundColor": "rgb(5 46 22)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-50",
+    "properties": {
+      "backgroundColor": "rgb(236 253 245)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-100",
+    "properties": {
+      "backgroundColor": "rgb(209 250 229)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-200",
+    "properties": {
+      "backgroundColor": "rgb(167 243 208)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-300",
+    "properties": {
+      "backgroundColor": "rgb(110 231 183)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-400",
+    "properties": {
+      "backgroundColor": "rgb(52 211 153)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-500",
+    "properties": {
+      "backgroundColor": "rgb(16 185 129)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-600",
+    "properties": {
+      "backgroundColor": "rgb(5 150 105)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-700",
+    "properties": {
+      "backgroundColor": "rgb(4 120 87)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-800",
+    "properties": {
+      "backgroundColor": "rgb(6 95 70)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-900",
+    "properties": {
+      "backgroundColor": "rgb(6 78 59)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-emerald-950",
+    "properties": {
+      "backgroundColor": "rgb(2 44 34)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-50",
+    "properties": {
+      "backgroundColor": "rgb(240 253 250)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-100",
+    "properties": {
+      "backgroundColor": "rgb(204 251 241)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-200",
+    "properties": {
+      "backgroundColor": "rgb(153 246 228)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-300",
+    "properties": {
+      "backgroundColor": "rgb(94 234 212)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-400",
+    "properties": {
+      "backgroundColor": "rgb(45 212 191)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-500",
+    "properties": {
+      "backgroundColor": "rgb(20 184 166)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-600",
+    "properties": {
+      "backgroundColor": "rgb(13 148 136)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-700",
+    "properties": {
+      "backgroundColor": "rgb(15 118 110)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-800",
+    "properties": {
+      "backgroundColor": "rgb(17 94 89)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-900",
+    "properties": {
+      "backgroundColor": "rgb(19 78 74)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-teal-950",
+    "properties": {
+      "backgroundColor": "rgb(4 47 46)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-50",
+    "properties": {
+      "backgroundColor": "rgb(236 254 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-100",
+    "properties": {
+      "backgroundColor": "rgb(207 250 254)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-200",
+    "properties": {
+      "backgroundColor": "rgb(165 243 252)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-300",
+    "properties": {
+      "backgroundColor": "rgb(103 232 249)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-400",
+    "properties": {
+      "backgroundColor": "rgb(34 211 238)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-500",
+    "properties": {
+      "backgroundColor": "rgb(6 182 212)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-600",
+    "properties": {
+      "backgroundColor": "rgb(8 145 178)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-700",
+    "properties": {
+      "backgroundColor": "rgb(14 116 144)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-800",
+    "properties": {
+      "backgroundColor": "rgb(21 94 117)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-900",
+    "properties": {
+      "backgroundColor": "rgb(22 78 99)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-cyan-950",
+    "properties": {
+      "backgroundColor": "rgb(8 51 68)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-50",
+    "properties": {
+      "backgroundColor": "rgb(240 249 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-100",
+    "properties": {
+      "backgroundColor": "rgb(224 242 254)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-200",
+    "properties": {
+      "backgroundColor": "rgb(186 230 253)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-300",
+    "properties": {
+      "backgroundColor": "rgb(125 211 252)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-400",
+    "properties": {
+      "backgroundColor": "rgb(56 189 248)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-500",
+    "properties": {
+      "backgroundColor": "rgb(14 165 233)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-600",
+    "properties": {
+      "backgroundColor": "rgb(2 132 199)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-700",
+    "properties": {
+      "backgroundColor": "rgb(3 105 161)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-800",
+    "properties": {
+      "backgroundColor": "rgb(7 89 133)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-900",
+    "properties": {
+      "backgroundColor": "rgb(12 74 110)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-sky-950",
+    "properties": {
+      "backgroundColor": "rgb(8 47 73)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-50",
+    "properties": {
+      "backgroundColor": "rgb(239 246 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-100",
+    "properties": {
+      "backgroundColor": "rgb(219 234 254)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-200",
+    "properties": {
+      "backgroundColor": "rgb(191 219 254)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-300",
+    "properties": {
+      "backgroundColor": "rgb(147 197 253)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-400",
+    "properties": {
+      "backgroundColor": "rgb(96 165 250)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-500",
+    "properties": {
+      "backgroundColor": "rgb(59 130 246)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-600",
+    "properties": {
+      "backgroundColor": "rgb(37 99 235)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-700",
+    "properties": {
+      "backgroundColor": "rgb(29 78 216)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-800",
+    "properties": {
+      "backgroundColor": "rgb(30 64 175)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-900",
+    "properties": {
+      "backgroundColor": "rgb(30 58 138)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-blue-950",
+    "properties": {
+      "backgroundColor": "rgb(23 37 84)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-50",
+    "properties": {
+      "backgroundColor": "rgb(238 242 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-100",
+    "properties": {
+      "backgroundColor": "rgb(224 231 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-200",
+    "properties": {
+      "backgroundColor": "rgb(199 210 254)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-300",
+    "properties": {
+      "backgroundColor": "rgb(165 180 252)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-400",
+    "properties": {
+      "backgroundColor": "rgb(129 140 248)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-500",
+    "properties": {
+      "backgroundColor": "rgb(99 102 241)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-600",
+    "properties": {
+      "backgroundColor": "rgb(79 70 229)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-700",
+    "properties": {
+      "backgroundColor": "rgb(67 56 202)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-800",
+    "properties": {
+      "backgroundColor": "rgb(55 48 163)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-900",
+    "properties": {
+      "backgroundColor": "rgb(49 46 129)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-indigo-950",
+    "properties": {
+      "backgroundColor": "rgb(30 27 75)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-50",
+    "properties": {
+      "backgroundColor": "rgb(245 243 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-100",
+    "properties": {
+      "backgroundColor": "rgb(237 233 254)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-200",
+    "properties": {
+      "backgroundColor": "rgb(221 214 254)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-300",
+    "properties": {
+      "backgroundColor": "rgb(196 181 253)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-400",
+    "properties": {
+      "backgroundColor": "rgb(167 139 250)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-500",
+    "properties": {
+      "backgroundColor": "rgb(139 92 246)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-600",
+    "properties": {
+      "backgroundColor": "rgb(124 58 237)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-700",
+    "properties": {
+      "backgroundColor": "rgb(109 40 217)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-800",
+    "properties": {
+      "backgroundColor": "rgb(91 33 182)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-900",
+    "properties": {
+      "backgroundColor": "rgb(76 29 149)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-violet-950",
+    "properties": {
+      "backgroundColor": "rgb(46 16 101)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-50",
+    "properties": {
+      "backgroundColor": "rgb(250 245 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-100",
+    "properties": {
+      "backgroundColor": "rgb(243 232 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-200",
+    "properties": {
+      "backgroundColor": "rgb(233 213 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-300",
+    "properties": {
+      "backgroundColor": "rgb(216 180 254)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-400",
+    "properties": {
+      "backgroundColor": "rgb(192 132 252)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-500",
+    "properties": {
+      "backgroundColor": "rgb(168 85 247)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-600",
+    "properties": {
+      "backgroundColor": "rgb(147 51 234)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-700",
+    "properties": {
+      "backgroundColor": "rgb(126 34 206)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-800",
+    "properties": {
+      "backgroundColor": "rgb(107 33 168)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-900",
+    "properties": {
+      "backgroundColor": "rgb(88 28 135)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-purple-950",
+    "properties": {
+      "backgroundColor": "rgb(59 7 100)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-50",
+    "properties": {
+      "backgroundColor": "rgb(253 244 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-100",
+    "properties": {
+      "backgroundColor": "rgb(250 232 255)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-200",
+    "properties": {
+      "backgroundColor": "rgb(245 208 254)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-300",
+    "properties": {
+      "backgroundColor": "rgb(240 171 252)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-400",
+    "properties": {
+      "backgroundColor": "rgb(232 121 249)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-500",
+    "properties": {
+      "backgroundColor": "rgb(217 70 239)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-600",
+    "properties": {
+      "backgroundColor": "rgb(192 38 211)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-700",
+    "properties": {
+      "backgroundColor": "rgb(162 28 175)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-800",
+    "properties": {
+      "backgroundColor": "rgb(134 25 143)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-900",
+    "properties": {
+      "backgroundColor": "rgb(112 26 117)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-fuchsia-950",
+    "properties": {
+      "backgroundColor": "rgb(74 4 78)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-50",
+    "properties": {
+      "backgroundColor": "rgb(253 242 248)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-100",
+    "properties": {
+      "backgroundColor": "rgb(252 231 243)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-200",
+    "properties": {
+      "backgroundColor": "rgb(251 207 232)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-300",
+    "properties": {
+      "backgroundColor": "rgb(249 168 212)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-400",
+    "properties": {
+      "backgroundColor": "rgb(244 114 182)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-500",
+    "properties": {
+      "backgroundColor": "rgb(236 72 153)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-600",
+    "properties": {
+      "backgroundColor": "rgb(219 39 119)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-700",
+    "properties": {
+      "backgroundColor": "rgb(190 24 93)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-800",
+    "properties": {
+      "backgroundColor": "rgb(157 23 77)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-900",
+    "properties": {
+      "backgroundColor": "rgb(131 24 67)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-pink-950",
+    "properties": {
+      "backgroundColor": "rgb(80 7 36)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-50",
+    "properties": {
+      "backgroundColor": "rgb(255 241 242)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-100",
+    "properties": {
+      "backgroundColor": "rgb(255 228 230)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-200",
+    "properties": {
+      "backgroundColor": "rgb(254 205 211)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-300",
+    "properties": {
+      "backgroundColor": "rgb(253 164 175)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-400",
+    "properties": {
+      "backgroundColor": "rgb(251 113 133)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-500",
+    "properties": {
+      "backgroundColor": "rgb(244 63 94)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-600",
+    "properties": {
+      "backgroundColor": "rgb(225 29 72)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-700",
+    "properties": {
+      "backgroundColor": "rgb(190 18 60)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-800",
+    "properties": {
+      "backgroundColor": "rgb(159 18 57)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-900",
+    "properties": {
+      "backgroundColor": "rgb(136 19 55)"
+    }
+  },
+  {
+    "category": "background-color",
+    "class": "bg-rose-950",
+    "properties": {
+      "backgroundColor": "rgb(76 5 25)"
+    }
+  }
+];
 
   export const textAligns=[
     {
       "category": "text-align",
       "class": "text-left",
       "properties": {
-        "text-align": "left"
+        textAlign: "left"
       }
     },
     {
       "category": "text-align",
       "class": "text-center",
       "properties": {
-        "text-align": "center"
+        textAlign: "center"
       }
     },
     {
       "category": "text-align",
       "class": "text-right",
       "properties": {
-        "text-align": "right"
+        textAlign: "right"
       }
     },
     {
       "category": "text-align",
       "class": "text-justify",
       "properties": {
-        "text-align": "justify"
+        textAlign: "justify"
       }
     },
     {
       "category": "text-align",
       "class": "text-start",
       "properties": {
-        "text-align": "start"
+        textAlign: "start"
       }
     },
     {
       "category": "text-align",
       "class": "text-end",
       "properties": {
-        "text-align": "end"
+        textAlign: "end"
+      }
+    }
+  ]
+
+  export const widths=[
+    {
+      "category": "width",
+      "class": "w-0",
+      "properties": {
+        "width": "0px"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-px",
+      "properties": {
+        "width": "1px"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-0.5",
+      "properties": {
+        "width": "0.125rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-1",
+      "properties": {
+        "width": "0.25rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-1.5",
+      "properties": {
+        "width": "0.375rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-2",
+      "properties": {
+        "width": "0.5rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-2.5",
+      "properties": {
+        "width": "0.625rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-3",
+      "properties": {
+        "width": "0.75rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-3.5",
+      "properties": {
+        "width": "0.875rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-4",
+      "properties": {
+        "width": "1rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-5",
+      "properties": {
+        "width": "1.25rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-6",
+      "properties": {
+        "width": "1.5rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-7",
+      "properties": {
+        "width": "1.75rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-8",
+      "properties": {
+        "width": "2rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-9",
+      "properties": {
+        "width": "2.25rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-10",
+      "properties": {
+        "width": "2.5rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-11",
+      "properties": {
+        "width": "2.75rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-12",
+      "properties": {
+        "width": "3rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-14",
+      "properties": {
+        "width": "3.5rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-16",
+      "properties": {
+        "width": "4rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-20",
+      "properties": {
+        "width": "5rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-24",
+      "properties": {
+        "width": "6rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-28",
+      "properties": {
+        "width": "7rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-32",
+      "properties": {
+        "width": "8rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-36",
+      "properties": {
+        "width": "9rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-40",
+      "properties": {
+        "width": "10rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-44",
+      "properties": {
+        "width": "11rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-48",
+      "properties": {
+        "width": "12rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-52",
+      "properties": {
+        "width": "13rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-56",
+      "properties": {
+        "width": "14rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-60",
+      "properties": {
+        "width": "15rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-64",
+      "properties": {
+        "width": "16rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-72",
+      "properties": {
+        "width": "18rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-80",
+      "properties": {
+        "width": "20rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-96",
+      "properties": {
+        "width": "24rem"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-auto",
+      "properties": {
+        "width": "auto"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-1/2",
+      "properties": {
+        "width": "50%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-1/3",
+      "properties": {
+        "width": "33.333333%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-2/3",
+      "properties": {
+        "width": "66.666667%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-1/4",
+      "properties": {
+        "width": "25%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-2/4",
+      "properties": {
+        "width": "50%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-3/4",
+      "properties": {
+        "width": "75%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-1/5",
+      "properties": {
+        "width": "20%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-2/5",
+      "properties": {
+        "width": "40%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-3/5",
+      "properties": {
+        "width": "60%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-4/5",
+      "properties": {
+        "width": "80%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-1/6",
+      "properties": {
+        "width": "16.666667%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-2/6",
+      "properties": {
+        "width": "33.333333%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-3/6",
+      "properties": {
+        "width": "50%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-4/6",
+      "properties": {
+        "width": "66.666667%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-5/6",
+      "properties": {
+        "width": "83.333333%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-1/12",
+      "properties": {
+        "width": "8.333333%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-2/12",
+      "properties": {
+        "width": "16.666667%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-3/12",
+      "properties": {
+        "width": "25%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-4/12",
+      "properties": {
+        "width": "33.333333%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-5/12",
+      "properties": {
+        "width": "41.666667%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-6/12",
+      "properties": {
+        "width": "50%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-7/12",
+      "properties": {
+        "width": "58.333333%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-8/12",
+      "properties": {
+        "width": "66.666667%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-9/12",
+      "properties": {
+        "width": "75%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-10/12",
+      "properties": {
+        "width": "83.333333%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-11/12",
+      "properties": {
+        "width": "91.666667%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-full",
+      "properties": {
+        "width": "100%"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-screen",
+      "properties": {
+        "width": "100vw"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-min",
+      "properties": {
+        "width": "min-content"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-max",
+      "properties": {
+        "width": "max-content"
+      }
+    },
+    {
+      "category": "width",
+      "class": "w-fit",
+      "properties": {
+        "width": "fit-content"
+      }
+    }
+  ];
+
+  export const heights=[
+    {
+      "category": "height",
+      "class": "h-0",
+      "properties": {
+        "height": "0px"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-px",
+      "properties": {
+        "height": "1px"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-0.5",
+      "properties": {
+        "height": "0.125rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-1",
+      "properties": {
+        "height": "0.25rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-1.5",
+      "properties": {
+        "height": "0.375rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-2",
+      "properties": {
+        "height": "0.5rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-2.5",
+      "properties": {
+        "height": "0.625rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-3",
+      "properties": {
+        "height": "0.75rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-3.5",
+      "properties": {
+        "height": "0.875rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-4",
+      "properties": {
+        "height": "1rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-5",
+      "properties": {
+        "height": "1.25rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-6",
+      "properties": {
+        "height": "1.5rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-7",
+      "properties": {
+        "height": "1.75rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-8",
+      "properties": {
+        "height": "2rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-9",
+      "properties": {
+        "height": "2.25rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-10",
+      "properties": {
+        "height": "2.5rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-11",
+      "properties": {
+        "height": "2.75rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-12",
+      "properties": {
+        "height": "3rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-14",
+      "properties": {
+        "height": "3.5rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-16",
+      "properties": {
+        "height": "4rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-20",
+      "properties": {
+        "height": "5rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-24",
+      "properties": {
+        "height": "6rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-28",
+      "properties": {
+        "height": "7rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-32",
+      "properties": {
+        "height": "8rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-36",
+      "properties": {
+        "height": "9rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-40",
+      "properties": {
+        "height": "10rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-44",
+      "properties": {
+        "height": "11rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-48",
+      "properties": {
+        "height": "12rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-52",
+      "properties": {
+        "height": "13rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-56",
+      "properties": {
+        "height": "14rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-60",
+      "properties": {
+        "height": "15rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-64",
+      "properties": {
+        "height": "16rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-72",
+      "properties": {
+        "height": "18rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-80",
+      "properties": {
+        "height": "20rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-96",
+      "properties": {
+        "height": "24rem"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-auto",
+      "properties": {
+        "height": "auto"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-1/2",
+      "properties": {
+        "height": "50%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-1/3",
+      "properties": {
+        "height": "33.333333%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-2/3",
+      "properties": {
+        "height": "66.666667%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-1/4",
+      "properties": {
+        "height": "25%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-2/4",
+      "properties": {
+        "height": "50%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-3/4",
+      "properties": {
+        "height": "75%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-1/5",
+      "properties": {
+        "height": "20%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-2/5",
+      "properties": {
+        "height": "40%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-3/5",
+      "properties": {
+        "height": "60%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-4/5",
+      "properties": {
+        "height": "80%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-1/6",
+      "properties": {
+        "height": "16.666667%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-2/6",
+      "properties": {
+        "height": "33.333333%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-3/6",
+      "properties": {
+        "height": "50%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-4/6",
+      "properties": {
+        "height": "66.666667%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-5/6",
+      "properties": {
+        "height": "83.333333%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-full",
+      "properties": {
+        "height": "100%"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-screen",
+      "properties": {
+        "height": "100vh"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-min",
+      "properties": {
+        "height": "min-content"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-max",
+      "properties": {
+        "height": "max-content"
+      }
+    },
+    {
+      "category": "height",
+      "class": "h-fit",
+      "properties": {
+        "height": "fit-content"
+      }
+    }
+  ];
+
+
+  export const maxWidths=[
+    {
+      "category": "max-width",
+      "class": "max-w-0",
+      "properties": {
+        "maxWidth": "0rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-none",
+      "properties": {
+        "maxWidth": "none"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-xs",
+      "properties": {
+        "maxWidth": "20rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-sm",
+      "properties": {
+        "maxWidth": "24rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-md",
+      "properties": {
+        "maxWidth": "28rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-lg",
+      "properties": {
+        "maxWidth": "32rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-xl",
+      "properties": {
+        "maxWidth": "36rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-2xl",
+      "properties": {
+        "maxWidth": "42rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-3xl",
+      "properties": {
+        "maxWidth": "48rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-4xl",
+      "properties": {
+        "maxWidth": "56rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-5xl",
+      "properties": {
+        "maxWidth": "64rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-6xl",
+      "properties": {
+        "maxWidth": "72rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-7xl",
+      "properties": {
+        "maxWidth": "80rem"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-full",
+      "properties": {
+        "maxWidth": "100%"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-min",
+      "properties": {
+        "maxWidth": "min-content"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-max",
+      "properties": {
+        "maxWidth": "max-content"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-fit",
+      "properties": {
+        "maxWidth": "fit-content"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-prose",
+      "properties": {
+        "maxWidth": "65ch"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-screen-sm",
+      "properties": {
+        "maxWidth": "640px"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-screen-md",
+      "properties": {
+        "maxWidth": "768px"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-screen-lg",
+      "properties": {
+        "maxWidth": "1024px"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-screen-xl",
+      "properties": {
+        "maxWidth": "1280px"
+      }
+    },
+    {
+      "category": "max-width",
+      "class": "max-w-screen-2xl",
+      "properties": {
+        "maxWidth": "1536px"
+      }
+    }
+  ];
+
+  export const flexDirections=[
+    {
+      "category": "flex-direction",
+      "class": "flex-row",
+      "properties": {
+        "flexDirection": "row"
+      }
+    },
+    {
+      "category": "flex-direction",
+      "class": "flex-row-reverse",
+      "properties": {
+        "flexDirection": "row-reverse"
+      }
+    },
+    {
+      "category": "flex-direction",
+      "class": "flex-col",
+      "properties": {
+        "flexDirection": "column"
+      }
+    },
+    {
+      "category": "flex-direction",
+      "class": "flex-col-reverse",
+      "properties": {
+        "flexDirection": "column-reverse"
+      }
+    }
+  ]
+
+  export const flexWraps=[
+    {
+      "category": "flex-wrap",
+      "class": "flex-wrap",
+      "properties": {
+        "flexWrap": "wrap"
+      }
+    },
+    {
+      "category": "flex-wrap",
+      "class": "flex-wrap-reverse",
+      "properties": {
+        "flexWrap": "wrap-reverse"
+      }
+    },
+    {
+      "category": "flex-wrap",
+      "class": "flex-nowrap",
+      "properties": {
+        "flexWrap": "nowrap"
+      }
+    }
+  ];
+
+  export const flexs=[
+    {
+      "category": "flex",
+      "class": "flex-1",
+      "properties": {
+        "flex": "1 1 0%"
+      }
+    },
+    {
+      "category": "flex",
+      "class": "flex-auto",
+      "properties": {
+        "flex": "1 1 auto"
+      }
+    },
+    {
+      "category": "flex",
+      "class": "flex-initial",
+      "properties": {
+        "flex": "0 1 auto"
+      }
+    },
+    {
+      "category": "flex",
+      "class": "flex-none",
+      "properties": {
+        "flex": "none"
+      }
+    }
+  ]
+
+  export const flexGrows=[
+    {
+      "category": "flex-grow",
+      "class": "grow",
+      "properties": {
+        "flexGrow": "1"
+      }
+    },
+    {
+      "category": "flex-grow",
+      "class": "grow-0",
+      "properties": {
+        "flexGrow": "0"
+      }
+    }
+  ]
+
+  export const flexShrinks=[
+    {
+      "category": "flex-shrink",
+      "class": "shrink",
+      "properties": {
+        "flexShrink": "1"
+      }
+    },
+    {
+      "category": "flex-shrink",
+      "class": "shrink-0",
+      "properties": {
+        "flexShrink": "0"
+      }
+    }
+  ]
+
+  export const Gaps=[
+    {
+      "category": "gap",
+      "class": "gap-0",
+      "properties": {
+        "gap": "0px"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-0",
+      "properties": {
+        "columnGap": "0px"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-0",
+      "properties": {
+        "rowGap": "0px"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-px",
+      "properties": {
+        "gap": "1px"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-px",
+      "properties": {
+        "columnGap": "1px"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-px",
+      "properties": {
+        "rowGap": "1px"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-0.5",
+      "properties": {
+        "gap": "0.125rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-0.5",
+      "properties": {
+        "columnGap": "0.125rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-0.5",
+      "properties": {
+        "rowGap": "0.125rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-1",
+      "properties": {
+        "gap": "0.25rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-1",
+      "properties": {
+        "columnGap": "0.25rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-1",
+      "properties": {
+        "rowGap": "0.25rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-1.5",
+      "properties": {
+        "gap": "0.375rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-1.5",
+      "properties": {
+        "columnGap": "0.375rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-1.5",
+      "properties": {
+        "rowGap": "0.375rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-2",
+      "properties": {
+        "gap": "0.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-2",
+      "properties": {
+        "columnGap": "0.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-2",
+      "properties": {
+        "rowGap": "0.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-2.5",
+      "properties": {
+        "gap": "0.625rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-2.5",
+      "properties": {
+        "columnGap": "0.625rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-2.5",
+      "properties": {
+        "rowGap": "0.625rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-3",
+      "properties": {
+        "gap": "0.75rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-3",
+      "properties": {
+        "columnGap": "0.75rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-3",
+      "properties": {
+        "rowGap": "0.75rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-3.5",
+      "properties": {
+        "gap": "0.875rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-3.5",
+      "properties": {
+        "columnGap": "0.875rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-3.5",
+      "properties": {
+        "rowGap": "0.875rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-4",
+      "properties": {
+        "gap": "1rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-4",
+      "properties": {
+        "columnGap": "1rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-4",
+      "properties": {
+        "rowGap": "1rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-5",
+      "properties": {
+        "gap": "1.25rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-5",
+      "properties": {
+        "columnGap": "1.25rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-5",
+      "properties": {
+        "rowGap": "1.25rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-6",
+      "properties": {
+        "gap": "1.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-6",
+      "properties": {
+        "columnGap": "1.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-6",
+      "properties": {
+        "rowGap": "1.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-7",
+      "properties": {
+        "gap": "1.75rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-7",
+      "properties": {
+        "columnGap": "1.75rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-7",
+      "properties": {
+        "rowGap": "1.75rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-8",
+      "properties": {
+        "gap": "2rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-8",
+      "properties": {
+        "columnGap": "2rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-8",
+      "properties": {
+        "rowGap": "2rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-9",
+      "properties": {
+        "gap": "2.25rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-9",
+      "properties": {
+        "columnGap": "2.25rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-9",
+      "properties": {
+        "rowGap": "2.25rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-10",
+      "properties": {
+        "gap": "2.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-10",
+      "properties": {
+        "columnGap": "2.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-10",
+      "properties": {
+        "rowGap": "2.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-11",
+      "properties": {
+        "gap": "2.75rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-11",
+      "properties": {
+        "columnGap": "2.75rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-11",
+      "properties": {
+        "rowGap": "2.75rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-12",
+      "properties": {
+        "gap": "3rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-12",
+      "properties": {
+        "columnGap": "3rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-12",
+      "properties": {
+        "rowGap": "3rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-14",
+      "properties": {
+        "gap": "3.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-14",
+      "properties": {
+        "columnGap": "3.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-14",
+      "properties": {
+        "rowGap": "3.5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-16",
+      "properties": {
+        "gap": "4rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-16",
+      "properties": {
+        "columnGap": "4rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-16",
+      "properties": {
+        "rowGap": "4rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-20",
+      "properties": {
+        "gap": "5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-20",
+      "properties": {
+        "columnGap": "5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-20",
+      "properties": {
+        "rowGap": "5rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-24",
+      "properties": {
+        "gap": "6rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-24",
+      "properties": {
+        "columnGap": "6rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-24",
+      "properties": {
+        "rowGap": "6rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-28",
+      "properties": {
+        "gap": "7rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-28",
+      "properties": {
+        "columnGap": "7rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-28",
+      "properties": {
+        "rowGap": "7rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-32",
+      "properties": {
+        "gap": "8rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-32",
+      "properties": {
+        "columnGap": "8rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-32",
+      "properties": {
+        "rowGap": "8rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-36",
+      "properties": {
+        "gap": "9rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-36",
+      "properties": {
+        "columnGap": "9rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-36",
+      "properties": {
+        "rowGap": "9rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-40",
+      "properties": {
+        "gap": "10rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-40",
+      "properties": {
+        "columnGap": "10rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-40",
+      "properties": {
+        "rowGap": "10rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-44",
+      "properties": {
+        "gap": "11rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-44",
+      "properties": {
+        "columnGap": "11rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-44",
+      "properties": {
+        "rowGap": "11rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-48",
+      "properties": {
+        "gap": "12rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-48",
+      "properties": {
+        "columnGap": "12rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-48",
+      "properties": {
+        "rowGap": "12rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-52",
+      "properties": {
+        "gap": "13rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-52",
+      "properties": {
+        "columnGap": "13rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-52",
+      "properties": {
+        "rowGap": "13rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-56",
+      "properties": {
+        "gap": "14rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-56",
+      "properties": {
+        "columnGap": "14rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-56",
+      "properties": {
+        "rowGap": "14rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-60",
+      "properties": {
+        "gap": "15rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-60",
+      "properties": {
+        "columnGap": "15rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-60",
+      "properties": {
+        "rowGap": "15rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-64",
+      "properties": {
+        "gap": "16rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-64",
+      "properties": {
+        "columnGap": "16rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-64",
+      "properties": {
+        "rowGap": "16rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-72",
+      "properties": {
+        "gap": "18rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-72",
+      "properties": {
+        "columnGap": "18rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-72",
+      "properties": {
+        "rowGap": "18rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-80",
+      "properties": {
+        "gap": "20rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-80",
+      "properties": {
+        "columnGap": "20rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-80",
+      "properties": {
+        "rowGap": "20rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-96",
+      "properties": {
+        "gap": "24rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-x-96",
+      "properties": {
+        "columnGap": "24rem"
+      }
+    },
+    {
+      "category": "gap",
+      "class": "gap-y-96",
+      "properties": {
+        "rowGap": "24rem"
+      }
+    }
+  ]
+
+  export const justifyContents=[
+    {
+      "category": "justify-content",
+      "class": "justify-normal",
+      "properties": {
+        "justifyContent": "normal"
+      }
+    },
+    {
+      "category": "justify-content",
+      "class": "justify-start",
+      "properties": {
+        "justifyContent": "flex-start"
+      }
+    },
+    {
+      "category": "justify-content",
+      "class": "justify-end",
+      "properties": {
+        "justifyContent": "flex-end"
+      }
+    },
+    {
+      "category": "justify-content",
+      "class": "justify-center",
+      "properties": {
+        "justifyContent": "center"
+      }
+    },
+    {
+      "category": "justify-content",
+      "class": "justify-between",
+      "properties": {
+        "justifyContent": "space-between"
+      }
+    },
+    {
+      "category": "justify-content",
+      "class": "justify-around",
+      "properties": {
+        "justifyContent": "space-around"
+      }
+    },
+    {
+      "category": "justify-content",
+      "class": "justify-evenly",
+      "properties": {
+        "justifyContent": "space-evenly"
+      }
+    },
+    {
+      "category": "justify-content",
+      "class": "justify-stretch",
+      "properties": {
+        "justifyContent": "stretch"
+      }
+    }
+  ]
+
+  export const alignItemss=[
+    {
+      "category": "align-items",
+      "class": "items-start",
+      "properties": {
+        "alignItems": "flex-start"
+      }
+    },
+    {
+      "category": "align-items",
+      "class": "items-end",
+      "properties": {
+        "alignItems": "flex-end"
+      }
+    },
+    {
+      "category": "align-items",
+      "class": "items-center",
+      "properties": {
+        "alignItems": "center"
+      }
+    },
+    {
+      "category": "align-items",
+      "class": "items-baseline",
+      "properties": {
+        "alignItems": "baseline"
+      }
+    },
+    {
+      "category": "align-items",
+      "class": "items-stretch",
+      "properties": {
+        "alignItems": "stretch"
       }
     }
   ]

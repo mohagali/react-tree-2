@@ -20,7 +20,10 @@ import {
     borderWidths,
     colors,
     backgroundColors,
-    textAligns
+    textAligns,
+    widths,
+    heights,
+    maxWidths
 
 } from '../../../../utils/constant'
 const ImageNode = ({ selectedNode, dispatch }) => {
@@ -39,18 +42,19 @@ const ImageNode = ({ selectedNode, dispatch }) => {
     const borderRadius = style && style["border-radius"] ? style["border-radius"].class : 'rounded-none';
     const borderWidth = style && style["border-width"] ? style["border-width"].class : 'border-0';
     const textAlign = style && style["text-align"] ? style["text-align"].class : 'text-left';
+    const width = style && style["width"] ? style["width"].class : 'w-auto';
+    const height = style && style["height"] ? style["height"].class : 'h-auto';
+    const maxWidth = style && style["max-width"] ? style["max-width"].class : 'max-w-none';
 
     const styles = {
-        "font-size": fontSizes,
-        "font-weight": fontWeights,
-        "font-style": fontStyles,
+
         "padding": paddingClasses,
         "margin": marginClasses,
-        "color": colors,
-        "background-color": backgroundColors,
         "border-radius": borderRadiuses,
         "border-width": borderWidths,
-        "text-align": textAligns
+        "width": widths,
+        "height": heights,
+        "max-width": maxWidths
     }
     const handleStyle = (event, styleName) => {
         if (!event.target.value)
@@ -59,7 +63,6 @@ const ImageNode = ({ selectedNode, dispatch }) => {
         const newStyle = styles[styleName].find(e => e.class == newClassName)
         handleProperty(newStyle)
     };
-
 
     const handleProperty = (properties) => {
         dispatch({
@@ -82,13 +85,30 @@ const ImageNode = ({ selectedNode, dispatch }) => {
             // const targetNodeIndex = nodes.findIndex((n) => n.id === node.id);
             // const targetNode = nodes[targetNodeIndex];
             if (file) {
-                selectedNode.data.image = URL.createObjectURL(file);
-                dispatch({
-                    type: 'changed',
-                    node: selectedNode
-                });
+
+                const formData = new FormData();
+                formData.append('image', file);
+
+                fetch('http://localhost:5000/upload', {
+                    method: 'POST',
+                    body: formData,
+                })
+                    .then((response) => response.json())
+                    .then((data) => {
+                        console.log(data); // Handle the server response
+                        selectedNode.data.imageUrl = data.imageUrl;
+                        dispatch({
+                            type: 'changed',
+                            node: selectedNode
+                        });
+
+                    })
+                    .catch((error) => {
+                        console.error('Error uploading image:', error);
+                    });
+
             }
-            
+
         } else {
             setFile(null);
         }
@@ -112,7 +132,30 @@ const ImageNode = ({ selectedNode, dispatch }) => {
             onChange={handleImageChange}
         />
 
-        <StyleCategoryLabel labelValue={"Size"} />
+        <StyleCategoryLabel labelValue={"Spacing"} />
+        <AttributeList
+            labelValue={"Inner Space"}
+            attributeName={"padding"}
+            attributeValue={padding}
+            handleStyle={handleStyle}
+            styles={styles} />
+
+        <AttributeList
+            labelValue={"Outer Space"}
+            attributeName={"margin"}
+            attributeValue={margin}
+            handleStyle={handleStyle}
+            styles={styles} />
+
+
+        <StyleCategoryLabel labelValue={"Border"} />
+        <AttributeList
+            labelValue={"Rounded"}
+            attributeName={"border-radius"}
+            attributeValue={borderRadius}
+            handleStyle={handleStyle}
+            styles={styles} />
+
         <AttributeList
             labelValue={"Thickness"}
             attributeName={"border-width"}
@@ -120,7 +163,25 @@ const ImageNode = ({ selectedNode, dispatch }) => {
             handleStyle={handleStyle}
             styles={styles} />
 
-
+        <StyleCategoryLabel labelValue={"Size"} />
+        <AttributeList
+            labelValue={"Width"}
+            attributeName={"width"}
+            attributeValue={width}
+            handleStyle={handleStyle}
+            styles={styles} />
+        <AttributeList
+            labelValue={"Height"}
+            attributeName={"height"}
+            attributeValue={height}
+            handleStyle={handleStyle}
+            styles={styles} />
+        <AttributeList
+            labelValue={"Limit width"}
+            attributeName={"max-width"}
+            attributeValue={maxWidth}
+            handleStyle={handleStyle}
+            styles={styles} />
     </Stack>
 }
 
@@ -136,7 +197,6 @@ const StyleCategoryLabel = ({ labelValue }) => {
         marginY: '0.5rem'
     }}>{labelValue}</Typography>
 }
-
 
 const AttributeList = ({ labelValue, attributeName, attributeValue, handleStyle, styles }) => {
 

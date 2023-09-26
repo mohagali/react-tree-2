@@ -3,8 +3,7 @@ import { Box, Link } from "@mui/material";
 import styles from "./styles.module.css";
 import { useNodes } from "../../context/NodesContext";
 import BoxNode from './Nodes/BoxNode'
-import ColumnNode from './Nodes/ColumnNode'
-import RowNode from './Nodes/RowNode'
+import FlexLayoutNode from './Nodes/FlexLayoutNode'
 import ImageNode from './Nodes/ImageNode'
 import TextNode from './Nodes/TextNode'
 import LinkNode from './Nodes/LinkNode'
@@ -30,10 +29,8 @@ function TreeNode({ node }) {
   // if (node.children && node.children.length > 0) {
 
     switch (node.data.fileType) {
-      case "row":
-        return <RowNode node={node} TreeNode={TreeNode} />;
-      case "column":
-        return <ColumnNode node={node} TreeNode={TreeNode} />;
+      case "flexlayout":
+        return <FlexLayoutNode node={node} TreeNode={TreeNode} />;
       case "box":
         return <BoxNode node={node} TreeNode={TreeNode} />;
       case "link":

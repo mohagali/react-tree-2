@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useReducer, useState } from 'react';
 import { getDescendants } from "@minoru/react-dnd-treeview";
-import { getLastId }  from '../utils/nodes'
+import { getLastId } from '../utils/nodes'
 
 const NodesContext = createContext(null);
 
@@ -85,11 +85,21 @@ function nodesReducer(nodes, action) {
       return action.newNodes
     }
     case 'added': {
-      // return [...nodes, {
-      //   id: action.id,
-      //   text: action.text,
-      //   done: false
-      // }];
+      const { newNodeType, parent } = action.node
+      const newId = getLastId(nodes) + 1;
+      const newNode = createNewElement(newNodeType,newId, parent)
+      //  {
+      //   id: lastId,
+      //   text: "text-" + lastId,
+      //   parent,
+      //   droppable: false,
+      //   data: {
+      //     fileType: newNodeType,
+      //     iconType: newNodeType
+      //   }
+      // };
+
+      return [...nodes, newNode];
     }
     case 'changed': {
       console.log('changed', action)
@@ -111,7 +121,7 @@ function nodesReducer(nodes, action) {
       return nodes.filter((node) => !deleteIds.includes(node.id));
 
     }
-    case 'copy':{
+    case 'copy': {
       const id = action.id;
       const lastId = getLastId(nodes);
       const targetNode = nodes.find((n) => n.id === id);
@@ -121,7 +131,7 @@ function nodesReducer(nodes, action) {
         id: node.id + lastId,
         parent: node.parent + lastId
       }));
-  
+
       return [
         ...nodes,
         {
@@ -144,10 +154,10 @@ const initialNodes2 = [
     id: 1,
     parent: 0,
     droppable: true,
-    text: "Row 1",
+    text: "layout1",
     data: {
-      direction: "row",
-      fileType: "row"
+      fileType: "flexlayout",
+      iconType: "row"
     }
   },
   {
@@ -156,7 +166,8 @@ const initialNodes2 = [
     droppable: false,
     text: "Image 1-1",
     data: {
-      fileType: "image"
+      fileType: "image",
+      iconType: "image"
     }
   },
   {
@@ -165,17 +176,20 @@ const initialNodes2 = [
     droppable: false,
     text: "Text 1-2 chemi mohamed 12345",
     data: {
-      fileType: "text"
+      fileType: "text",
+      iconType: "text"
     }
   },
   {
     id: 4,
     parent: 0,
     droppable: true,
-    text: "Column 2",
+    text: "layout 2",
+    iconType: "box",
     data: {
-      fileType: "column",
-      direction: "column"
+      fileType: "flexlayout",
+      iconType: "row"
+
     }
   },
   {
@@ -185,6 +199,7 @@ const initialNodes2 = [
     text: "Row 2-1",
     data: {
       fileType: "link",
+      iconType: "link",
       link: "https://studio.grapesjs.com/"
     }
   },
@@ -194,7 +209,8 @@ const initialNodes2 = [
     droppable: false,
     text: "Text 2-1-1",
     data: {
-      fileType: "text"
+      fileType: "text",
+      iconType: "text"
     }
   },
   {
@@ -203,7 +219,8 @@ const initialNodes2 = [
     droppable: false,
     text: "Text 2-1-2",
     data: {
-      fileType: "text"
+      fileType: "text",
+      iconType: "text"
     }
   },
   {
@@ -212,7 +229,8 @@ const initialNodes2 = [
     droppable: false,
     text: "Image 1-1",
     data: {
-      fileType: "image"
+      fileType: "image",
+      iconType: "image"
     }
   },
   {
@@ -221,7 +239,8 @@ const initialNodes2 = [
     droppable: false,
     text: "Text 1-2",
     data: {
-      fileType: "text"
+      fileType: "text",
+      iconType: "text"
     }
   },
   {
@@ -230,8 +249,27 @@ const initialNodes2 = [
     droppable: true,
     text: "Box 1",
     data: {
-      fileType: "box"
+      fileType: "box",
+      iconType: "box"
     }
   }
 
 ];
+
+const createNewElement = (newNodeType,newId,parentId) => {
+
+  const newText= newNodeType + newId;
+  const fileType= (newNodeType==="row"||newNodeType==="column")?"flexlayout":newNodeType;
+  const iconType= newNodeType;
+  const isDroppable=newNodeType!=="text" && newNodeType!=="image";
+  return {
+    id: newId,
+    text: newText,
+    parent:parentId,
+    droppable: isDroppable,
+    data: {
+      fileType: fileType,
+      iconType: iconType
+    }
+  };
+}

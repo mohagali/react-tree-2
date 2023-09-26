@@ -47,7 +47,7 @@ export const CustomNode = (props) => {
           )}
         </div>
         <div>
-          <TypeIcon droppable={droppable} fileType={data?.fileType} />
+          <TypeIcon droppable={droppable} iconType={data?.iconType} />
         </div>
         <div className={styles.labelGridItem}>
           <Typography className={styles.labelTextItem}

@@ -15,7 +15,7 @@ export const TypeIcon = (props) => {
   //   return <CheckBoxOutlineBlank />;
   // }
 
-  switch (props.fileType) {
+  switch (props.iconType) {
     case "image":
       return <ImageIcon />;
     case "text":

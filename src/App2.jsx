@@ -29,8 +29,8 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <NodesProvider>
       <CssBaseline />
-      <Box sx={{ display: 'flex' }}>
-        <AppBar
+      <Box sx={{ display: 'flex',height:'100%' }}>
+        {/* <AppBar
           position="fixed"
           sx={{
             width: `calc(100% - ${drawerWidth}px)`,
@@ -43,7 +43,7 @@ const App = () => {
               Preview
             </Typography>
           </Toolbar>
-        </AppBar>
+        </AppBar> */}
         <Drawer
           sx={{
             width: drawerWidth,
@@ -59,12 +59,12 @@ const App = () => {
           anchor="left"
         // ModalProps={{ disableScrollLock: true }}
         >
-          <Toolbar>
+          {/* <Toolbar>
             <Typography variant="h6" noWrap component="div">
               Pages
             </Typography>
           </Toolbar>
-          <Divider />
+          <Divider /> */}
           <SideBar
             // treeData={treeData}
              setTreeData={()=>{}}
@@ -99,7 +99,7 @@ const App = () => {
           component="main"
           sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
         >
-          <Toolbar />
+          {/* <Toolbar /> */}
           
           <Preview />
 

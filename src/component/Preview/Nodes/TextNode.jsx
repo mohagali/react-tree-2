@@ -26,9 +26,9 @@ const TextNode = ({ node }) => {
     //    })
     return <Box
         sx={{
-            border: "1px solid grey",
-            borderRadius: "2px",
-            padding: "2px",
+            // border: "1px solid grey",
+            // borderRadius: "2px",
+            // padding: "2px",
             fontSize: '1rem',
             lineHeight: '1.5rem',
             fontWeight: '400',
@@ -38,6 +38,8 @@ const TextNode = ({ node }) => {
             textWrap: 'wrap',
 
             fontStyle: 'normal',
+            display: 'flex',
+            alignItems: 'start',
             
             ...customStyle()
         }}

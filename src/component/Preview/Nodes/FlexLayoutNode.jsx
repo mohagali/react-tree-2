@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 
-const BoxNode = ({node,TreeNode}) => {
+const RowNode = ({node,TreeNode}) => {
 
   const customStyle = () => {
 
@@ -18,11 +18,11 @@ const BoxNode = ({node,TreeNode}) => {
     return (
         <Box
           sx={{
-            padding: "4px",
-            margin: "4px",
-            border: "1px solid purple",
-            // width:"100px",
-            // height:"100px"
+            // padding: "4px",
+            // margin: "4px",
+            // border:"1px solid green",
+                
+            display: "flex",
             ...customStyle()
           }}
         >
@@ -33,5 +33,4 @@ const BoxNode = ({node,TreeNode}) => {
       );
 }
 
-
-export default BoxNode; 
+export default RowNode; 
