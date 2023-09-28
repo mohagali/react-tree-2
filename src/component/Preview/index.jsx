@@ -14,33 +14,31 @@ export const Preview = () => {
   const nestedObject = convertToNestedArray(nodes);
 
   return (
-    <Box
-      sx={{
-        padding: "4px"
-      }}
+    <Box sx={{
+      padding: '1rem',
+      marginBottom: '240px'
+    }}
     >
       <NestedTree data={nestedObject} />
     </Box>
   );
 };
 
-
 function TreeNode({ node }) {
   // if (node.children && node.children.length > 0) {
 
-    switch (node.data.fileType) {
-      case "flexlayout":
-        return <FlexLayoutNode node={node} TreeNode={TreeNode} />;
-      case "box":
-        return <BoxNode node={node} TreeNode={TreeNode} />;
-      case "link":
-        return <LinkNode node={node} TreeNode={TreeNode} />;
-      case "text":
-        return <TextNode node={node} TreeNode={TreeNode} />;
-      case "image":
-        return <ImageNode node={node} TreeNode={TreeNode} />;
+  switch (node.data.fileType) {
+    case "flexlayout":
+      return <FlexLayoutNode node={node} TreeNode={TreeNode} />;
+    case "box":
+      return <BoxNode node={node} TreeNode={TreeNode} />;
+    case "link":
+      return <LinkNode node={node} TreeNode={TreeNode} />;
+    case "text":
+      return <TextNode node={node} TreeNode={TreeNode} />;
+    case "image":
+      return <ImageNode node={node} TreeNode={TreeNode} />;
 
-    
   }
 }
 

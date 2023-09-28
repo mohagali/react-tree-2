@@ -12,7 +12,17 @@ const RowNode = ({node,TreeNode}) => {
     Object.keys(style).forEach(k => {
         newStyle = { ...newStyle, ...style[k].properties }
     })
-    return newStyle
+  //   if(node.id==118)
+  //   return {
+  // ...newStyle,"flexDirection":'column'
+  // }
+  let newStyle2 = {}
+  Object.keys(newStyle).forEach(k => {
+    newStyle2[k]={xs:newStyle[k]}
+})
+  
+console.log(newStyle2)
+    return newStyle2
 }
 
     return (
@@ -23,7 +33,8 @@ const RowNode = ({node,TreeNode}) => {
             // border:"1px solid green",
                 
             display: "flex",
-            ...customStyle()
+            ...customStyle(),
+           
           }}
         >
           {node.children.map((child) => (

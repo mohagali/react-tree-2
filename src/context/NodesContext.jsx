@@ -19,7 +19,7 @@ export function NodesProvider({ children }) {
     // Function to fetch data from localStorage
     const fetchDataFromLocalStorage = () => {
       const savedData = localStorage.getItem('data');
-      console.log('init', savedData)
+      // console.log('init', savedData)
       if (savedData) {
         const savedDataJson = JSON.parse(savedData);
         dispatch({
